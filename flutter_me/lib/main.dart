@@ -51,7 +51,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<String> listItems = ['Leave', 'Pay', 'Timesheets'];//, 'ChatBot'];
+  List<String> listItems = ['Leave', 'Pay', 'Timesheets']; //, 'ChatBot'];
   List<String> leaveLeft = [
     'LEAVE AVAILABLE',
     '2 DAYS, 3 HOURS',
@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   new Text(
                     'Peter Smith',
                     style: new TextStyle(
-                      //fontWeight: FontWeight.bold,
+                        //fontWeight: FontWeight.bold,
                         fontSize: _width / 15,
                         color: Colors.white),
                   ),
@@ -157,7 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //                  new SizedOverflowBox(
 //                      size: Size(_width/2, _height/2),
 //                      child: //new Text("hello"),
-                    new ListView.builder(
+                        new ListView.builder(
                       itemCount: listItems.length,
                       itemBuilder: (BuildContext context, int index) {
                         return ListTile(
@@ -167,19 +167,18 @@ class _MyHomePageState extends State<MyHomePage> {
                               MaterialPageRoute(builder: (context) {
                                 switch (index) {
                                   case 0:
-                                      return Leave();
+                                    return Leave();
                                   case 1:
-                                      return Pay();
+                                    return Pay();
                                   case 2:
-                                      return TimesheetView();
+                                    return TimesheetView();
 //                                  case 3:
 //                                    {
 //                                      return ChatBot();
 //                                    }
                                 }
                                 return new Text("Not built yet");
-                              }
-                              ),
+                              }),
                             );
                             // Navigate back to first route when tapped.
                           },
@@ -213,20 +212,19 @@ class _MyHomePageState extends State<MyHomePage> {
     return Card(
       elevation: 3,
       child: Container(
-        height: 180.0,
+        height: 140.0,
         width: MediaQuery.of(context).size.width,
         child:
 //          new DefaultTextStyle(style: new TextStyle(fontSize: 15.0), child:
-        Column(
+            Column(
           children: <Widget>[
             new Align(
                 alignment: Alignment.centerLeft,
-                child:
-                Row(
+                child: Row(
                   children: <Widget>[
                     Container(
                       margin: const EdgeInsets.all(10),
-                      child:  Text(
+                      child: Text(
                         title,
                         textAlign: TextAlign.left,
                         style: new TextStyle(
@@ -235,26 +233,23 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ),
                     ),
-//                    Container(
-//                      child: IconButton(
-//                        icon: Icon(Icons.help),
-//                        color: Colors.blue,
-//                        onPressed: () => _showDialog(index),
-//                      ),
-//                    )
+                    Container(
+                      child: IconButton(
+                        icon: Icon(Icons.help),
+                        color: Colors.blue,
+                        onPressed: () => _showDialog(index),
+                      ),
+                    )
                   ],
-                )
-            ),
+                )),
             Row(
               children: <Widget>[
-                Container(
-                  height: MediaQuery.of(context).size.height / 7,
-                  width: MediaQuery.of(context).size.width / 2.4,
+                Expanded(
+                  flex: 1,
                   child: left,
                 ),
-                Container(
-                  height: MediaQuery.of(context).size.height / 7,
-                  width: MediaQuery.of(context).size.width / 2.4,
+                Expanded(
+                  flex: 1,
                   child: right,
                 ),
               ],
@@ -289,20 +284,21 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   // user defined function
-//  void _showDialog(int index) {
-//    // flutter defined function
-//    showDialog(
-//      context: context,
-//      builder: (BuildContext context) {
-//        // return object of type Dialog
-//        print('Help button pressed, load values');
+  void _showDialog(int index) {
+    // flutter defined function
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        // return object of type Dialog
+        print('Help button pressed, load values');
 //        return HelpStream(index: index,);
-//      },
-//    );
-//  }
+      },
+    );
+  }
 
+  //Employee and LanId
   Widget _rowProfileCell(String stringOne, String stringTwo) => new Expanded(
-      child: new Column(
+          child: new Column(
         children: <Widget>[
           new Text(
             stringOne,
@@ -316,5 +312,4 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.white, fontWeight: FontWeight.normal))
         ],
       ));
-
 }
