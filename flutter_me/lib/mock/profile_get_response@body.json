@@ -1,0 +1,110 @@
+{
+  "id": "123456",
+  "lanID": "abcdefg1",
+  "firstName": "Peter",
+  "lastName": "Johnson",
+  "status": "EMP",
+  "type": "Full-Time",
+  "record": 0,
+  "division": "",
+  "regRegion": "AUS",
+  "lineManagerID": "",
+  "matrixManagerID": "",
+  "personalEmail": "",
+  "addresses": [
+    {
+      "type": "BUSN",
+      "address1": "Level 8",
+      "address2": "370 Bourke St",
+      "address3": "Melbourne",
+      "address4": "",
+      "state": "VIC",
+      "postcode": "3008",
+      "country": "AUS"
+    },
+    {
+      "type": "HOME",
+      "address1": "Level 8",
+      "address2": "370 Bourke St",
+      "address3": "Melbourne",
+      "address4": "",
+      "state": "VIC",
+      "postcode": "3183",
+      "country": "AUS"
+    },
+    {
+      "type": "MAIL",
+      "address1": "Level 8",
+      "address2": "370 Bourke St",
+      "address3": "Melbourne",
+      "address4": "",
+      "state": "VIC",
+      "postcode": "3138",
+      "country": "AUS"
+    }
+  ],
+  "phones": [
+    {
+      "type": "BUSN",
+      "countryCode": "61",
+      "phone": "0391234567"
+    },
+    {
+      "type": "CEL2",
+      "countryCode": "",
+      "phone": "0391234567"
+    },
+    {
+      "type": "CELL",
+      "countryCode": "61",
+      "phone": "0391234567"
+    },
+    {
+      "type": "INT",
+      "countryCode": "",
+      "phone": "0391234567"
+    },
+    {
+      "type": "PGR1",
+      "countryCode": "",
+      "phone": "0391234567"
+    },
+    {
+      "type": "TELX",
+      "countryCode": "",
+      "phone": "0391234567"
+    }
+  ],
+  "emergencyContact": [
+  {
+    "name": "Bob Redford",
+    "phone": "123456789",
+    "address": {
+      "address1": "Blah",
+      "address2": "",
+      "address3": "",
+      "address4": "VIC",
+      "state": "VIC",
+      "postCode": "1234",
+      "country": "AUS"
+    }
+  }]
+,
+  "job": {
+    "group": "",
+    "jobTitle": "",
+    "jobGroup": "",
+    "costCentre": "123-456",
+    "costCentreDescription": "Digital Services",
+    "fullTimeEmployeeRatio": 0,
+    "actualStandardHours": 0,
+    "position": {
+      "id": "",
+      "title": "",
+      "family": "",
+      "grade": "",
+      "function": "",
+      "tempPositionFlag": ""
+    }
+  }
+}

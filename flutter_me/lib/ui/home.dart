@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
-import 'package:flutter_me/Navigation/leave.dart';
-import 'package:flutter_me/Navigation/pay.dart';
-import 'package:flutter_me/Navigation/profile.dart';
-import 'package:flutter_me/Navigation/timesheet.dart';
+import 'package:flutter_me/navigation/leave.dart';
+import 'package:flutter_me/navigation/pay.dart';
+import 'package:flutter_me/navigation/profile_edit.dart';
+import 'package:flutter_me/navigation/timesheet.dart';
 //import 'package:flutter_webapp/Utility/ChatBot.dart';
 //import 'package:flutter_webapp/ui/help_dialog.dart';
 

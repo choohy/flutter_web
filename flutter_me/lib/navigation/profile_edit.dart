@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toast/toast.dart';
 
 class Profile extends StatefulWidget {
   Profile({Key key, this.title}) : super(key: key);
@@ -17,18 +18,26 @@ class _ProfileState extends State<Profile> {
         title: Text("Profile"),
       ),
       body: Center(
-        child: RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
+        child: Card(
+//          onPressed: () {
+//            Navigator.pop(context);
+//          },
+          elevation: 5,
           child: Column(
             children: <Widget>[
               _name(context),
-              Text('Go back!'),
+//              Text('Go back!'),
             ],
           ),
         ),
       ),
+      floatingActionButton: RaisedButton.icon(
+          onPressed: () {
+            return Toast.show("Enter Edit mode.", context,
+                duration: Toast.LENGTH_LONG, gravity: Toast.TOP);
+          },
+          icon: Icon(Icons.edit_attributes),
+          label: Text("Edit")),
     );
   }
 
@@ -50,13 +59,13 @@ class _ProfileState extends State<Profile> {
     ];
 
     return DropdownButtonFormField<String>(
-    //return DropdownButton<String>(
-    //value: dropdownValue,
+      //return DropdownButton<String>(
+      //value: dropdownValue,
       items: _dropdownValues
           .map((label) => DropdownMenuItem(
-        child: Text(label),
-        value: label,
-      ))
+                child: Text(label),
+                value: label,
+              ))
           .toList(),
       onChanged: (value) {
         setState(() {
@@ -64,7 +73,6 @@ class _ProfileState extends State<Profile> {
         });
       },
       value: _dropdownValue,
-
     );
 //    return new FormField(
 //      builder: (FormFieldState state) {
