@@ -1,8 +1,8 @@
-class Profiles {
+class Profile {
   String id;
-  String lanID;
-  String firstName;
-  String lastName;
+  String lanID = "smithp";
+  String firstName = "Peter";
+  String lastName = "Smith";
   String status;
   String type;
   int record;

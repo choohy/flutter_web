@@ -2,21 +2,21 @@ import 'package:flutter/material.dart';
 //import 'package:flutter_me/Utility/DateTimePicker.dart';
 import 'package:flutter_me/Utility/TextField.dart';
 //import 'package:flutter_me/Utility/slider.dart';
-import 'package:flutter_me/models/leave_request.dart';
+import 'package:flutter_me/models/profile.dart';
 //import 'package:intl/intl.dart';
 //import 'package:toast/toast.dart';
 
-class LeaveFormWidget extends StatefulWidget {
-  final LeaveForm leaveForm;
+class ProfileWidget extends StatefulWidget {
+  final Profile profile;
 
-  const LeaveFormWidget({Key key, this.leaveForm}) : super(key: key);
+  const ProfileWidget({Key key, this.profile}) : super(key: key);
 
   @override
-  _LeaveFormWidgetState createState() => _LeaveFormWidgetState();
+  _ProfileWidgetState createState() => _ProfileWidgetState();
 }
 
-class _LeaveFormWidgetState extends State<LeaveFormWidget> {
-  LeaveForm _leaveForm;
+class _ProfileWidgetState extends State<ProfileWidget> {
+  Profile _profile;
   // Note: This is a `GlobalKey<FormState>`,
   // not a GlobalKey<FormMeState>.
   final _formKey = GlobalKey<FormState>();
@@ -28,9 +28,9 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
 
   @override
   Widget build(BuildContext context) {
-    _leaveForm = this.widget.leaveForm;
-    print("LeaveForm Widget: " + _leaveForm.leaveType);
-    _leaveForm.formData['Leave Type'] = _leaveForm.leaveType;
+    _profile = this.widget.profile;
+    print("profile Widget: " + _profile.lanID);
+//    _profile.formData['Leave Type'] = _profile.leaveType;
 
 //    return FutureBuilder(
 //        future: buildFutures(),
@@ -45,7 +45,7 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
         appBar: AppBar(
           titleSpacing: 5.0,
           title: Text(
-            'New ' + _leaveForm.formData['Leave Type'] + ' Request',
+            'Profile',
             style: TextStyle(fontSize: 15.0),
           ),
           actions: <Widget>[
@@ -58,7 +58,7 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
                     onPressed: () async {
                       if (_formKey.currentState.validate()) {
                         _formKey.currentState.save();
-//                        if (_validDates()) Navigator.pop(context, _leaveForm);
+//                        if (_validDates()) Navigator.pop(context, _profile);
 
 //                                      showDialog<String>(
 //                                          context: context,
@@ -67,7 +67,7 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
 //                                                  AlertDialog(
 //                                                    content: Text(
 //                                                      _validDates()),
-////                                                        'Data submitted is \n${_leaveForm.formData.toString()}'),
+////                                                        'Data submitted is \n${_profile.formData.toString()}'),
 //                                                  ));
                       }
                     });
@@ -89,40 +89,12 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
                           margin: const EdgeInsets.all(15.0),
                           child: Column(
                             children: <Widget>[
-                              FormLabelMe(_leaveForm.leaveFields[0]),
-                              DropdownButton<String>(
-                                isExpanded: true,
-                                value: _leaveForm
-                                    .formData[_leaveForm.leaveFields[0]],
-                                items: _leaveForm.leaveTypes
-                                    .map((String dropdownItem) {
-                                  return DropdownMenuItem<String>(
-                                    value: dropdownItem,
-                                    child: Text(dropdownItem),
-                                  );
-                                }).toList(),
-                                onChanged: (dynamic newValue) {
-                                  _onChangeValue(
-                                      _leaveForm.leaveFields[0], newValue);
-                                },
-                              ),
-//                              _checkMedicalCertificateRequired(),
-//                              BasicDateField(
-//                                leaveForm: _leaveForm,
-//                                label: _leaveForm.leaveFields[2],
-//                              ),
-//                              BasicDateField(
-//                                leaveForm: _leaveForm,
-//                                label: _leaveForm.leaveFields[3],
-//                              ),
-//                                            _textFormField(
-//                                                _leaveForm.leaveFields[3]),
-//                              FormLabelMe(_leaveForm.leaveFields[4]),
+                              FormLabelMe(_profile.lanID),
 //                              DropdownButton<String>(
 //                                isExpanded: true,
-//                                value: _leaveForm
-//                                    .formData[_leaveForm.leaveFields[4]],
-//                                items: _leaveForm.leaveTypes
+//                                value: _profile
+//                                    .formData[_profile.leaveFields[0]],
+//                                items: _profile.leaveTypes
 //                                    .map((String dropdownItem) {
 //                                  return DropdownMenuItem<String>(
 //                                    value: dropdownItem,
@@ -131,10 +103,39 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
 //                                }).toList(),
 //                                onChanged: (dynamic newValue) {
 //                                  _onChangeValue(
-//                                      _leaveForm.leaveFields[4], newValue);
+//                                      _profile.leaveFields[0], newValue);
 //                                },
 //                              ),
-                              _textFormField(_leaveForm.leaveFields[5], false),
+//                              _checkMedicalCertificateRequired(),
+//                              BasicDateField(
+//                                profile: _profile,
+//                                label: _profile.leaveFields[2],
+//                              ),
+//                              BasicDateField(
+//                                profile: _profile,
+//                                label: _profile.leaveFields[3],
+//                              ),
+//                                            _textFormField(
+//                                                _profile.leaveFields[3]),
+//                              FormLabelMe(_profile.leaveFields[4]),
+//                              DropdownButton<String>(
+//                                isExpanded: true,
+//                                value: _profile
+//                                    .formData[_profile.leaveFields[4]],
+//                                items: _profile.leaveTypes
+//                                    .map((String dropdownItem) {
+//                                  return DropdownMenuItem<String>(
+//                                    value: dropdownItem,
+//                                    child: Text(dropdownItem),
+//                                  );
+//                                }).toList(),
+//                                onChanged: (dynamic newValue) {
+//                                  _onChangeValue(
+//                                      _profile.leaveFields[4], newValue);
+//                                },
+//                              ),
+                              _textFormField(_profile.firstName, false),
+                              _textFormField(_profile.lastName, false),
                             ],
                           ))),
                 ))));
@@ -149,16 +150,16 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
     return true;
   }
 
-  void _onChangeValue(String field, String newValue) {
-//    print('field: $field, newValue: $newValue');
-    setState(() {
-      _leaveForm.formData[field] = newValue;
-      if (field == 'Leave Type') {
-        _leaveForm.leaveType = newValue;
-      }
-    });
-    print('$field: ${_leaveForm.formData[field]}');
-  }
+//  void _onChangeValue(String field, String newValue) {
+////    print('field: $field, newValue: $newValue');
+//    setState(() {
+//      _profile.formData[field] = newValue;
+//      if (field == 'Leave Type') {
+//        _profile.leaveType = newValue;
+//      }
+//    });
+//    print('$field: ${_profile.formData[field]}');
+//  }
 
   Widget _textFormField(String label, bool mandatory) {
     return TextFormField(
@@ -169,7 +170,7 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
         if (mandatory && value.isEmpty) {
           return 'Please enter some text';
         }
-        _onChangeValue(label, value);
+//        _onChangeValue(label, value);
         return null;
       },
       decoration: InputDecoration(labelText: label),
@@ -177,36 +178,36 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
   }
 
 //  Widget _sliderWidget(String label) {
-//    _leaveForm.formData[label] = false;
+//    _profile.formData[label] = false;
 //    return SliderWidget(
 //      label: label,
-//      leaveForm: _leaveForm,
+//      profile: _profile,
 //    );
 //  }
 
 //  Widget _checkMedicalCertificateRequired() {
 //    print('Medical Certificate Required? LeaveType: ' +
-//        _leaveForm.formData['Leave Type']);
-//    return _leaveForm.formData['Leave Type'] == 'SICK LEAVE'
+//        _profile.formData['Leave Type']);
+//    return _profile.formData['Leave Type'] == 'SICK LEAVE'
 //        ? _sliderWidget(
-//        "Medical Certificate") //_textFormField(_leaveForm.leaveFields[1])
+//        "Medical Certificate") //_textFormField(_profile.leaveFields[1])
 //        : Container();
 //  }
 
 //  bool _validDates() {
 //    bool validForm = true;
 //    final format = DateFormat("yyyy-MM-dd");
-//    String message = 'Data submitted is \n${_leaveForm.formData.toString()}';
+//    String message = 'Data submitted is \n${_profile.formData.toString()}';
 //    var fromDate;
 //    var toDate;
-//    print('from: ${_leaveForm.formData[_leaveForm.leaveFields[2]]}');
-//    if (_leaveForm.formData[_leaveForm.leaveFields[2]] != "" &&
-//        _leaveForm.formData[_leaveForm.leaveFields[2]] != null)
-//      fromDate = format.parse(_leaveForm.formData[_leaveForm.leaveFields[2]]);
-//    print('to: ${_leaveForm.formData[_leaveForm.leaveFields[3]]}');
-//    if (_leaveForm.formData[_leaveForm.leaveFields[3]] != "" &&
-//        _leaveForm.formData[_leaveForm.leaveFields[3]] != null)
-//      toDate = format.parse(_leaveForm.formData[_leaveForm.leaveFields[3]]);
+//    print('from: ${_profile.formData[_profile.leaveFields[2]]}');
+//    if (_profile.formData[_profile.leaveFields[2]] != "" &&
+//        _profile.formData[_profile.leaveFields[2]] != null)
+//      fromDate = format.parse(_profile.formData[_profile.leaveFields[2]]);
+//    print('to: ${_profile.formData[_profile.leaveFields[3]]}');
+//    if (_profile.formData[_profile.leaveFields[3]] != "" &&
+//        _profile.formData[_profile.leaveFields[3]] != null)
+//      toDate = format.parse(_profile.formData[_profile.leaveFields[3]]);
 //    print('fromDate $fromDate, toDate $toDate');
 //    if (fromDate != null && toDate != null) {
 //      if (fromDate.isAfter(toDate)) {
@@ -223,7 +224,7 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
 //  }
 
 //  _datePicker(BuildContext context,int labelID) async {
-//    print("Call date picker widget: " + _leaveForm.leaveType);
+//    print("Call date picker widget: " + _profile.leaveType);
 //
 //    // Navigator.push returns a Future that completes after calling
 //    // Navigator.pop on the Selection Screen.
@@ -231,8 +232,8 @@ class _LeaveFormWidgetState extends State<LeaveFormWidget> {
 //      context,
 //      MaterialPageRoute(
 //          builder: (context) =>
-//              BasicDateField(leaveForm: _leaveForm,
-//                label: _leaveForm.leaveFields[labelID],)),
+//              BasicDateField(profile: _profile,
+//                label: _profile.leaveFields[labelID],)),
 //    );
 //
 //    print("Date Results: $result");

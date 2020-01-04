@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:toast/toast.dart';
 
-class Profile extends StatefulWidget {
-  Profile({Key key, this.title}) : super(key: key);
+class ProfileEdit extends StatefulWidget {
+  ProfileEdit({Key key, this.title}) : super(key: key);
 
   final String title;
 
@@ -10,7 +10,7 @@ class Profile extends StatefulWidget {
   _ProfileState createState() => _ProfileState();
 }
 
-class _ProfileState extends State<Profile> {
+class _ProfileState extends State<ProfileEdit> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

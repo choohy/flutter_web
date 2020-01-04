@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_me/models/profile.dart';
 import 'dart:ui' as ui;
 import 'package:flutter_me/navigation/leave.dart';
 import 'package:flutter_me/navigation/pay.dart';
-import 'package:flutter_me/navigation/profile_edit.dart';
 import 'package:flutter_me/navigation/timesheet.dart';
+import 'package:flutter_me/ui/view_profile_button.dart';
 //import 'package:flutter_webapp/Utility/ChatBot.dart';
 //import 'package:flutter_webapp/ui/help_dialog.dart';
 
@@ -108,21 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         fontSize: _width / 15,
                         color: Colors.white),
                   ),
-                  new GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Profile()),
-                      );
-                    },
-                    child: Text(
-                      'View profile',
-                      style: new TextStyle(
-                        fontSize: _width / 30,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
+                  ProfileButton(profile: Profile(),),
                   new Divider(
                     height: _height / 30,
                     color: Colors.white,
@@ -266,6 +253,7 @@ class _MyHomePageState extends State<MyHomePage> {
       builder: (BuildContext context) {
         // return object of type Dialog
         print('Help button pressed, load values');
+        return Text("helo stream");
 //        return HelpStream(index: index,);
       },
     );
