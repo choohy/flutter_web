@@ -87,91 +87,38 @@ class _LeaveHistoryListState extends State<LeaveHistoryList> {
     return Card(
       elevation: 2,
       child: Container(
-        height: 80.0,
-        width: MediaQuery.of(context).size.width,
+        margin: const EdgeInsets.all(15.0),
+//        height: 80.0,
+//        width: MediaQuery.of(context).size.width,
         child: Column(
           children: <Widget>[
             Row(
               children: <Widget>[
-//          Expanded(
-//          flex: 1,
-//          child: left,
-//        ),
-//        Expanded(
-//          flex: 1,
-//          child: right,),
-                //Left Container
-                Container(
-                    margin: const EdgeInsets.all(15.0),
-                    alignment: Alignment(-1.0, 0.0),
-//                  height: MediaQuery.of(context).size.height / 7,
-//                    width: MediaQuery.of(context).size.width / 2.5,
-                    child:
-                        TextTile(
-                          lineOne: item.detail.type.pinNm,
-                          lineTwo: DurationDateString(
+                Expanded(
+                  flex: 1,
+                  child: TextTile(
+                    lineOne: item.detail.type.pinNm,
+                    lineTwo: DurationDateString(
                             startDateString: item.detail.fromDate,
                             endDateString: item.detail.toDate,
-                            format: "yyyy-MM-dd"
-                        ).toString(),
-                          lineThree: "",
-                        ),
-//                    _left(item.detail.type.pinNm,
-//                        DurationDateString(
-//                            startDateString: item.detail.fromDate,
-//                            endDateString: item.detail.toDate,
-//                            format: "yyyy-MM-dd"
-//                        ).toString()
-////                        item.detail.fromDate + " to " + item.detail.toDate)
-//                        )
+                            format: "yyyy-MM-dd")
+                        .toString(),
+                    lineThree: "",
+                  ),
                 ),
-                //Right Container
-                Container(
-                    margin: const EdgeInsets.all(15.0),
-                    alignment: Alignment(1.0, 0.0),
-//                  height: MediaQuery.of(context).size.height / 7,
-                    width: MediaQuery.of(context).size.width / 2.9,
+                Expanded(
+                    flex: 1,
                     child: _right(
-                      DurationString(
-                        days: item.duration.days,
-                        hours: item.duration.hours
-                      ).toString(),
-//                        item.duration.days +
-//                            " days, " +
-//                            item.duration.hours +
-//                            " hours",
-                         item.status)
-                ),
+                        DurationString(
+                                days: item.duration.days,
+                                hours: item.duration.hours)
+                            .toString(),
+                        item.status)),
               ],
             ),
           ],
         ),
       ),
-    );
-  }
-
-  Widget _left(String lineOne, String lineTwo) {
-    return Column(
-      children: <Widget>[
-        Container(
-          alignment: Alignment(-1.0, 0.0),
-          child: Text(
-            lineOne,
-            style: TextStyle(
-              color: Color(0xff115599),
-            ),
-          ),
-        ),
-        Container(
-          alignment: Alignment(-1.0, 0.0),
-          child: Text(
-            lineTwo,
-            style: TextStyle(
-              color: Color(0xff999999),
-            ),
-          ),
-        ),
-      ],
     );
   }
 

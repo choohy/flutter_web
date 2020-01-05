@@ -221,29 +221,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget _textTile(String lineOne, String lineTwo, String lineThree) {
-    return Column(
-      children: <Widget>[
-        new Text(
-          lineOne,
-          style: new TextStyle(
-            color: Color(0xff115599),
-          ),
-        ),
-        new Text(
-          lineTwo,
-          style: new TextStyle(
-            color: Color(0xff999999),
-          ),
-        ),
-        new Text(
-          lineThree,
-          style: new TextStyle(color: Colors.grey),
-        ),
-      ],
-    );
-  }
-
   // user defined function
   void _showDialog(int index) {
     Toast.show("Help icon to be enabled.", context,
