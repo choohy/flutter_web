@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_me/models/profile.dart';
 import 'package:flutter_me/ui/profile_read.dart';
-import 'package:toast/toast.dart';
 
 class ProfileButton extends StatefulWidget {
   final Profile profile;
@@ -22,8 +21,6 @@ class _ProfileButtonState extends State<ProfileButton> {
     return new GestureDetector(
       onTap: () {
         _navigateAndDisplaySelection(context);
-//        Toast.show("View profile.", context,
-//            duration: Toast.LENGTH_LONG, gravity: Toast.TOP);
       },
       child: Text(
         'View profile',

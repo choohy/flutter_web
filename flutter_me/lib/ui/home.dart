@@ -116,9 +116,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   new Expanded(
                     child:
-//                  new SizedOverflowBox(
-//                      size: Size(_width/2, _height/2),
-//                      child: //new Text("hello"),
                     new ListView.builder(
                       itemCount: listItems.length,
                       itemBuilder: (BuildContext context, int index) {
