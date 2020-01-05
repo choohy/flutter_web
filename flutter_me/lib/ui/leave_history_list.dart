@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_me/Utility/Approval_Icon.dart';
 import 'package:flutter_me/Utility/text_formating.dart';
+import 'package:flutter_me/Utility/text_tile.dart';
 import 'package:flutter_me/models/leave_history_model.dart';
 import 'package:flutter_me/blocs/leave_history_bloc.dart';
 
@@ -106,14 +107,23 @@ class _LeaveHistoryListState extends State<LeaveHistoryList> {
 //                  height: MediaQuery.of(context).size.height / 7,
 //                    width: MediaQuery.of(context).size.width / 2.5,
                     child:
-                    _left(item.detail.type.pinNm,
-                        DurationDateString(
+                        TextTile(
+                          lineOne: item.detail.type.pinNm,
+                          lineTwo: DurationDateString(
                             startDateString: item.detail.fromDate,
                             endDateString: item.detail.toDate,
                             format: "yyyy-MM-dd"
-                        ).toString()
-//                        item.detail.fromDate + " to " + item.detail.toDate)
-                        )
+                        ).toString(),
+                          lineThree: "",
+                        ),
+//                    _left(item.detail.type.pinNm,
+//                        DurationDateString(
+//                            startDateString: item.detail.fromDate,
+//                            endDateString: item.detail.toDate,
+//                            format: "yyyy-MM-dd"
+//                        ).toString()
+////                        item.detail.fromDate + " to " + item.detail.toDate)
+//                        )
                 ),
                 //Right Container
                 Container(

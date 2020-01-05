@@ -23,6 +23,7 @@ class TextTile extends StatelessWidget {
             color: Color(0xff999999),
           ),
         ),
+        (lineThree == null)|| (lineThree == "") ? Container() :
         Text(
           lineThree,
           style: TextStyle(color: Colors.grey),
