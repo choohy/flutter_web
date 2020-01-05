@@ -35,15 +35,15 @@ class Leave extends StatelessWidget {
                   ),
                 ),
                 //History
-//              LeaveHistoryWidget(),
-//              Center(
-//                child: RaisedButton(
-//                  onPressed: () {
-//                    Navigator.pop(context);
-//                  },
-//                  child: Text('Go back!'),
-//                ),
-//              ),
+                Center(
+                  child: RaisedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Go back!'),
+                  ),
+                ),
+                LeaveHistoryWidget(),
               ],
             ),
           ),

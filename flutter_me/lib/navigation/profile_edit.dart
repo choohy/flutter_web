@@ -33,11 +33,11 @@ class _ProfileState extends State<ProfileEdit> {
       ),
       floatingActionButton: RaisedButton.icon(
           onPressed: () {
-            return Toast.show("Enter Edit mode.", context,
+            Toast.show("Saved.", context,
                 duration: Toast.LENGTH_LONG, gravity: Toast.TOP);
           },
-          icon: Icon(Icons.edit_attributes),
-          label: Text("Edit")),
+          icon: Icon(Icons.save),
+          label: Text("Save")),
     );
   }
 
@@ -133,7 +133,7 @@ class _ProfileState extends State<ProfileEdit> {
     return Card(
       elevation: 3,
       child: Container(
-        height: MediaQuery.of(context).size.width, //240.0,
+//        height: MediaQuery.of(context).size.width, //240.0,
         width: MediaQuery.of(context).size.width,
         child:
 //          new DefaultTextStyle(style: new TextStyle(fontSize: 15.0), child:

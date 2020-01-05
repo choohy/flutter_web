@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_me/Utility/read_field.dart';
-import 'package:flutter_me/models/profile.dart';
+import 'package:flutter_me/models/profile_model.dart';
 import 'package:flutter_me/navigation/profile_edit.dart';
 import 'package:flutter_me/ui/edit_button.dart';
 import 'package:toast/toast.dart';

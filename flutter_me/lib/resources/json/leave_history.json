@@ -1,0 +1,759 @@
+{
+  "history": [
+    {
+      "items": [
+        {
+          "id": "6481618",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6481618",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-09-19",
+            "toDate": "2016-09-23",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "Have a nice break",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "40.000",
+            "totalHours": "40.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "04Jul2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "04Jul2016 14:31",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6566208",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6566208",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-09-16",
+            "toDate": "2016-09-16",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "06Sep2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "07Sep2016 09:44",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6549206",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6549206",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-08-26",
+            "toDate": "2016-08-26",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "my normal fortnightly lifestyle leave",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "24Aug2016 00:00",
+              "comment": "my normal fortnightly lifestyle leave"
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "24Aug2016 10:00",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6520146",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6520146",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-08-12",
+            "toDate": "2016-08-12",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "Friday once a fortnight lifestyle leave",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "03Aug2016 00:00",
+              "comment": "Friday once a fortnight lifestyle leave"
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "04Aug2016 09:08",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6504404",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6504404",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-07-29",
+            "toDate": "2016-07-29",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "Normal Lifestyle leave each fortnight",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "22Jul2016 00:00",
+              "comment": "Normal Lifestyle leave each fortnight"
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "22Jul2016 10:55",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6491965",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6491965",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-07-27",
+            "toDate": "2016-07-27",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "Warehouse Pick Packing at Yarraville",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "VOLUNTEER LEAVE",
+              "reason_pin": "USW"
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "VOLUNTEER LEAVE",
+              "reason_pin": "USW"
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "12Jul2016 00:00",
+              "comment": "Warehouse Pick Packing at Yarraville"
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "13Jul2016 10:11",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6504378",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6504378",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-07-19",
+            "toDate": "2016-07-19",
+            "partialHoursType": "all",
+            "hoursFirstDay": "4",
+            "hoursEndDay": "0",
+            "comment": "Feeling unwell so went home in the afternoon",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "SICK LEAVE",
+              "reason_pin": "MCN"
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "SICK LEAVE",
+              "reason_pin": "MCN"
+            },
+            "days": "",
+            "hours": "4.000",
+            "totalHours": "4.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "22Jul2016 00:00",
+              "comment": "Feeling unwell so went home in the afternoon"
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "22Jul2016 10:55",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6481613",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6481613",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-07-15",
+            "toDate": "2016-07-18",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "16.000",
+            "totalHours": "16.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "04Jul2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "04Jul2016 14:31",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6481608",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6481608",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-07-08",
+            "toDate": "2016-07-11",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "16.000",
+            "totalHours": "16.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "04Jul2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "967887",
+              "lanID": "waldrond",
+              "firstName": "Anzstaff967887",
+              "lastName": "Testlastname967887",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "04Jul2016 14:30",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6472925",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6472925",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-07-01",
+            "toDate": "2016-07-01",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "27Jun2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "772934",
+              "lanID": "loveb",
+              "firstName": "Anzstaff772934",
+              "lastName": "Testlastname772934",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "01Jul2016 11:22",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6412726",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6412726",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-06-20",
+            "toDate": "2016-06-24",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "matching with School holiday leave",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "ANNUAL LEAVE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "40.000",
+            "totalHours": "40.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "10May2016 00:00",
+              "comment": "matching with School holiday leave"
+            },
+            {
+              "id": "772934",
+              "lanID": "loveb",
+              "firstName": "Anzstaff772934",
+              "lastName": "Testlastname772934",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "10May2016 16:17",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6441361",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6441361",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-06-10",
+            "toDate": "2016-06-10",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "02Jun2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "772934",
+              "lanID": "loveb",
+              "firstName": "Anzstaff772934",
+              "lastName": "Testlastname772934",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "02Jun2016 11:38",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6427368",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6427368",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-05-27",
+            "toDate": "2016-05-27",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "23May2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "772934",
+              "lanID": "loveb",
+              "firstName": "Anzstaff772934",
+              "lastName": "Testlastname772934",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "23May2016 11:51",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6412195",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6412195",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-05-13",
+            "toDate": "2016-05-13",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "10May2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "772934",
+              "lanID": "loveb",
+              "firstName": "Anzstaff772934",
+              "lastName": "Testlastname772934",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "10May2016 11:20",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "id": "6390728",
+          "status": "Approved",
+          "approvalManagerName": "Anzstaff967887 Testlastname967887",
+          "detail": {
+            "leaveID": "6390728",
+            "employeeID": "780134",
+            "record": 0,
+            "fromDate": "2016-04-29",
+            "toDate": "2016-04-29",
+            "partialHoursType": "none",
+            "hoursFirstDay": "0",
+            "hoursEndDay": "0",
+            "comment": "",
+            "leaveDraft": true,
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            }
+          },
+          "duration": {
+            "type": {
+              "pin_nm": "LIFESTYLE",
+              "reason_pin": ""
+            },
+            "days": "",
+            "hours": "8.000",
+            "totalHours": "8.000"
+          },
+          "correspondence": [
+            {
+              "id": "780134",
+              "lanID": "tons",
+              "firstName": "1",
+              "lastName": "a",
+              "workFlowStatus": "SUBMITTED",
+              "dateOfCorrespondence": "21Apr2016 00:00",
+              "comment": ""
+            },
+            {
+              "id": "772934",
+              "lanID": "loveb",
+              "firstName": "Anzstaff772934",
+              "lastName": "Testlastname772934",
+              "workFlowStatus": "APPROVED",
+              "dateOfCorrespondence": "21Apr2016 12:48",
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "Approved and Denied Request"
+    }
+  ]
+}

@@ -3,21 +3,21 @@ import 'package:flutter_me/models/profile_model.dart';
 import 'package:flutter_me/ui/profile_read.dart';
 import 'package:toast/toast.dart';
 
-class EditButton extends StatelessWidget {
-  final Widget editWidget;
+class SubmitButton extends StatelessWidget {
+  final Form form;
 
-  const EditButton({Key key, this.editWidget}) : super(key: key);
+  const SubmitButton({Key key, this.form}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
 
     return IconButton(
-        icon: const Icon(Icons.edit),
+        icon: const Icon(Icons.save),
         iconSize: 20.0,
-        tooltip: 'Edit',
+        tooltip: 'Save',
         onPressed: () async {
           _navigateAndDisplaySelection(context);
-          Toast.show("Enter Edit mode.", context,
+          Toast.show("Saved.", context,
               duration: Toast.LENGTH_LONG, gravity: Toast.TOP);
         });
   }
@@ -25,15 +25,10 @@ class EditButton extends StatelessWidget {
   // A method that launches the SelectionScreen and awaits the result from
   // Navigator.pop.
   _navigateAndDisplaySelection(BuildContext context) async {
-    print("Call editWidget: " + editWidget.toStringShort());
+    print("Call SubmitButton: " + form.toString());
 
     // Navigator.push returns a Future that completes after calling
     // Navigator.pop on the Selection Screen.
-    final Widget result = await Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => editWidget),
-    );
-
-    print("EditWidget Results: $result");
+    Navigator.pop(context, form);
   }
 }

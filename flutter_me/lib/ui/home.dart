@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_me/models/profile.dart';
+import 'package:flutter_me/Utility/text_tile.dart';
+import 'package:flutter_me/models/profile_model.dart';
 import 'dart:ui' as ui;
 import 'package:flutter_me/navigation/leave.dart';
 import 'package:flutter_me/navigation/pay.dart';
 import 'package:flutter_me/navigation/timesheet.dart';
 import 'package:flutter_me/ui/view_profile_button.dart';
+import 'package:toast/toast.dart';
 //import 'package:flutter_webapp/Utility/ChatBot.dart';
 //import 'package:flutter_webapp/ui/help_dialog.dart';
 
@@ -145,15 +147,15 @@ class _MyHomePageState extends State<MyHomePage> {
                           title: _buildTile(
                             index,
                             listItems[index],
-                            _textTile(
-                              leaveLeft[0],
-                              leaveLeft[1],
-                              leaveLeft[2],
+                            TextTile(
+                              lineOne: leaveLeft[0],
+                              lineTwo: leaveLeft[1],
+                              lineThree: leaveLeft[2],
                             ),
-                            _textTile(
-                              leaveRight[0],
-                              leaveRight[1],
-                              leaveRight[2],
+                            TextTile(
+                              lineOne: leaveRight[0],
+                              lineTwo: leaveRight[1],
+                              lineThree: leaveRight[2],
                             ),
                           ),
                         );
@@ -244,16 +246,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
   // user defined function
   void _showDialog(int index) {
+    Toast.show("Help icon to be enabled.", context,
+        duration: Toast.LENGTH_LONG, gravity: Toast.TOP);
     // flutter defined function
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        // return object of type Dialog
-        print('Help button pressed, load values');
-        return Text("helo stream");
+//    showDialog(
+//      context: context,
+//      builder: (BuildContext context) {
+//        // return object of type Dialog
+//        print('Help button pressed, load values');
+//
 //        return HelpStream(index: index,);
-      },
-    );
+//      },
+//    );
   }
 
   //Employee and LanId
