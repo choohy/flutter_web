@@ -6,14 +6,14 @@ import 'package:flutter_me/features/leave/domain/usecases/get_leave_types.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 
-class MockLeaveTypesRespository extends Mock implements LeaveTypeRepository {}
+class MockLeaveTypeRespository extends Mock implements LeaveTypeRepository {}
 
 void main() {
   GetLeaveTypes usecase;
-  MockLeaveTypesRespository mockLeaveTypesRespository;
+  MockLeaveTypeRespository mockLeaveTypeRespository;
   setUp(() {
-    mockLeaveTypesRespository = MockLeaveTypesRespository();
-    usecase = GetLeaveTypes(mockLeaveTypesRespository);
+    mockLeaveTypeRespository = MockLeaveTypeRespository();
+    usecase = GetLeaveTypes(mockLeaveTypeRespository);
   });
 
   final tLeaveTypes = new List<LeaveType>();
@@ -25,16 +25,16 @@ void main() {
     'should get list of leave type descriptions from the repository',
     () async {
       //arrange
-      when(mockLeaveTypesRespository.getLeaveTypes())
+      when(mockLeaveTypeRespository.getLeaveTypes())
           .thenAnswer((_) async => Right(tLeaveTypes));
       // The "act" phase of the test. Call the not-yet-existent method.
       final result = await usecase(NoParams());
       // UseCase should simply return whatever was returned from the Repository
       expect(result, Right(tLeaveTypes));
       // Verify that the method has been called on the Repository
-      verify(mockLeaveTypesRespository.getLeaveTypes());
+      verify(mockLeaveTypeRespository.getLeaveTypes());
       // Only the above method should be called and nothing more.
-      verifyNoMoreInteractions(mockLeaveTypesRespository);
+      verifyNoMoreInteractions(mockLeaveTypeRespository);
     },
   );
 }
