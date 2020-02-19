@@ -12,7 +12,7 @@ class LeaveType extends Equatable {
 }
 
 class LeaveTypes extends Equatable {
-  final Map<String,String> leaveTypes;
+  final List<LeaveType> leaveTypes;
 
   LeaveTypes({
     @required this.leaveTypes

@@ -4,5 +4,5 @@ import 'package:dartz/dartz.dart';
 
 abstract class LeaveTypeRepository {
   Future<Either<Failure, LeaveType>> getLeaveDescription(String leaveType);
-  Future<Either<Failure, LeaveTypes>> getLeaveTypes(String leaveType);
+  Future<Either<Failure, List<LeaveType>>> getLeaveTypes();
 }

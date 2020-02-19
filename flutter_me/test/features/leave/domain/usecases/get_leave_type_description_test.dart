@@ -8,11 +8,11 @@ import 'package:mockito/mockito.dart';
 class MockLeaveTypeRespository extends Mock implements LeaveTypeRepository {}
 
 void main() {
-  GetLeaveDescription leaveDescription;
+  GetLeaveDescription usecase;
   MockLeaveTypeRespository mockLeaveTypeRespository;
   setUp(() {
     mockLeaveTypeRespository = MockLeaveTypeRespository();
-    leaveDescription = GetLeaveDescription(mockLeaveTypeRespository);
+    usecase = GetLeaveDescription(mockLeaveTypeRespository);
   });
 
   final tPin = "ANNUAL LEAVE";
@@ -25,7 +25,7 @@ void main() {
       when(mockLeaveTypeRespository.getLeaveDescription(any))
           .thenAnswer((_) async => Right(tDescription));
       // The "act" phase of the test. Call the not-yet-existent method.
-      final result = await leaveDescription.execute(leaveType: tPin);
+      final result = await usecase(Params(leaveType: tPin));
       // UseCase should simply return whatever was returned from the Repository
       expect(result, Right(tDescription));
       // Verify that the method has been called on the Repository
