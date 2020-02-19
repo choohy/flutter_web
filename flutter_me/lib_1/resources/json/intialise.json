@@ -1,0 +1,2210 @@
+{
+  "adobeKillSwitch": false,
+  "errors": {
+    "10": "As you're not paid directly by ANZ there are no actions for you to do in me@anz.",
+    "11": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "12": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "13": "Something's gone wrong in processing your leave amendment. Please retry. If the issue continues, contact Tech Assist",
+    "14": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "15": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "16": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "17": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "20": "You don't have an active profile in PeopleSoft. Please contact Tech Assist.",
+    "21": "You may be ineligible for this Leave type or do not have enough entitlement. Please contact People Assist.",
+    "22": "Leave Forecasting process failed. Please try from Desktop Webpage.",
+    "23": "The leave forecasting process is taking more than the usual. Please try from Desktop Webpage.",
+    "30": "me@anz is not able to handle multiple active employee records. For now you'll need to continue using PeopleSoft.",
+    "34": "The duration of loyalty leave request is greater than the current loyalty leave balance.  By proceeding to submit this request, you acknowledge that any loyalty leave exceeding the accrued balance will be processed as annual leave.",
+    "40": "Your profile in PeopleSoft is showing an error. Please contact Tech Assist",
+    "50": "There appears to be an issue with your PeopleSoft permissions. Please contact Tech Assist",
+    "60": "me@anz is not available for your region.",
+    "70": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "80": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "90": "You're not eligible for this leave type. Please retry. If this continues contact Tech Assist",
+    "100": "Something's gone wrong with the leave dates you've entered. Please check the dates and retry. If this continues, contact Tech Assist",
+    "110": "The start date entered is prior to your hire start date. Please amend your start date, or speak with your Line Manager to verify the details",
+    "120": "The end date entered is beyond your job end date. Please amend your end date, or speak with your Line Manager to verify your details",
+    "130": "You have an existing leave request with overlapping dates. Please check and try again. If error persists,   contact People Assist.",
+    "140": "Your leave request is greater than your scheduled hours. Please amend, or speak with your Line Manager or check your work schedule.",
+    "150": "The hours entered for your leave 'Start Date' are greater than your scheduled hours. Please amend, or speak with your Line Manager to check your work schedule.",
+    "160": "The hours entered for your leave 'End Date' are greater than your scheduled hours. Please amend, or speak with your Line Manager to check your work schedule.",
+    "170": "Your work schedule is currently unavailable. Please contact your Line Manager to  check your work schedule.",
+    "180": "Your leave requests exceeds one year. Please change the start or end dates.",
+    "190": "Your partial hours selection is invalid for your leave duration of 1 day. You will need to change your Partial Hours selection to either All days or Start only",
+    "210": "According to your work schedule, the start date is a day you don't work. Please change the start date, or speak with your Line Manager to check your work schedule.",
+    "220": "According to your work schedule, the end date is a day you don't work. Please change the end date, or speak with your Line Manager to check your work schedule.",
+    "230": "Your start date is on a public holiday. As your leave can't start on a holiday, please amend the start date.",
+    "240": "Your end date is on a public holiday. As your leave can't end on a holiday, please amend the end date.",
+    "250": "Something's gone wrong. Please retry. If this continues, contact Tech Assist",
+    "260": "me@anz is not available for your region.",
+    "270": "Your PeopleSoft record shows you were not active on the start date of your leave. Please check your start date & try again. If the problem persists,  contact People Assist.",
+    "280": "Due to a PeopleSoft system changeover you are unable to submit leave requests prior to 27 June, 2014. Please check your dates & try again.",
+    "456": "Something's gone wrong. Please retry. If the issue continues, contact Tech Assist.",
+    "2200068": "The time entered overlaps with a previous entry on the same 'Date Worked'. Please check and try again.  If this continues,  contact People Assist",
+    "2200070": "This date is too far in advance to be processed. Please try again closer to the required Pay Period Start Date.",
+    "2200079": "Due to a PeopleSoft system changeover the 'Date Worked' cannot be prior to 27 June, 2014. Please check your dates & try again.",
+    "2200080": "A future date is not permitted Please check your date & try again.",
+    "2200081": "Due to a PeopleSoft system changeover the 'Date Worked' cannot be prior to 27 June, 2014. Please check your dates & try again.",
+    "2200084": "This request cannot be submitted as it overlaps with an existing voluntary super contribution. Please review any existing contributions and ensure that the dates for any new voluntary super requests do not overlap.",
+    "2200085": "As you have already submitted a MyPay request for your voluntary super contribution today, you will not be able to complete another request until the next business day. If this issue persists, please contact ANZ People Assist",
+    "2200086": "A pre tax voluntary super request must be less than 90%",
+    "2200087": "A post tax voluntary super request must be less than 60%"
+  },
+  "region": {
+    "AUS": {
+      "leaveHelpTitle": "Leave Available and Leave Booked",
+      "leaveHelp": "'Leave Available' is your up to date annual leave balance and may differ from your annual leave entitlement in PeopleSoft.\n\n'Leave Booked' includes all annual leave requests submitted for future dates.\n\nAnnual Leave requests for dates within the current pay period will appear in 'Leave Booked' until approved. When approved it will stop appearing in 'Leave Booked' and will be deducted from 'Leave Available' within 24 hours.",
+      "payHelpTitle": "Last Pay and Next Pay",
+      "payHelp": "'Last Pay' is your most recent pay.\n\n'Next Pay' is the subsequent pay date following the last pay.",
+      "amendLeaveEmailAddress": "PayrollHROperations@anz.com",
+      "leaveFormSubTypes": {
+        "SICK LEAVE": {
+          "MCY": "Medical cert - Yes",
+          "MCN": "Medical cert - No"
+        },
+        "SL WITHOUT PAY": {
+          "MCY": "Medical cert - Yes",
+          "MCN": "Medical cert - No"
+        },
+        "VOLUNTEER LEAVE": {
+          "SAC": "Skilled Arts & culture",
+          "SED": "Skilled Economic dev",
+          "SEY": "Skilled Edu & yng ppl ",
+          "SER": "Skilled Emrgncy relief",
+          "SEN": "Skilled Environment",
+          "SHL": "Skilled Health",
+          "SOT": "Skilled Other",
+          "SSW": "Skilled Social welfare",
+          "UAC": "Unskilled Arts & culture",
+          "UED": "Unskilled Economic dev",
+          "UEY": "Unskilled Edu & yng ppl ",
+          "UER": "Unskilled Emrgncy relief",
+          "UEN": "Unskilled Environment",
+          "UHL": "Unskilled Health",
+          "UOT": "Unskilled Other",
+          "USW": "Unskilled Social welfare"
+        }
+      },
+      "leaveFormTypeBalanceMap": {
+        "CARERS LEAVE": "SICK LEAVE",
+        "LSLVE HP": "LSLVE",
+        "LOYALTY": "LOYALTY"
+      },
+      "leaveFormTypes": {
+        "ANNUAL LEAVE": "Annual leave",
+        "CARERS LEAVE": "Carer's leave",
+        "CARERS WITHOUT PAY": "Carer's leave w/o pay ",
+        "CO PARENT LEAVE": "Co-parent leave",
+        "LVE WITHOUT PAY": "Leave without pay",
+        "LIFESTYLE": "Lifestyle leave",
+        "LSLVE": "Long Serv leave",
+        "LSLVE HP": "Long Serv leave 1/2 pay",
+        "LOYALTY": "Loyalty Leave",
+        "OTHER LEAVE, BL": "Bereavement leave",
+        "OTHER LEAVE, JL": "Jury Service leave",
+        "OTHER LEAVE, MD": "Manager's discretion",
+        "OTHER LEAVE, ML": "Military Service leave",
+        "OTHER LEAVE, TL": "Time off in lieu",
+        "OTHER LEAVE, UL": "Union leave",
+        "RDO LEAVE": "Rostered day off",
+        "SICK LEAVE": "Sick leave",
+        "SL WITHOUT PAY": "Sick leave w/o pay",
+        "STUDY LEAVE": "Study leave",
+        "STUDY WITHOUT PAY": "Study leave w/o pay",
+        "VOLUNTEER LEAVE": "Volunteer leave"
+      },
+      "leaveFormTypesByEmployeeType": {
+        "Full-Time": {
+          "ANNUAL LEAVE": [],
+          "CARERS LEAVE": [],
+          "CARERS WITHOUT PAY": [],
+          "CO PARENT LEAVE": [],
+          "LVE WITHOUT PAY": [],
+          "LIFESTYLE": [],
+          "LSLVE": [],
+          "LSLVE HP": [],
+          "LOYALTY": [],
+          "OTHER LEAVE, BL": [],
+          "OTHER LEAVE, JL": [],
+          "OTHER LEAVE, MD": [],
+          "OTHER LEAVE, ML": [],
+          "OTHER LEAVE, TL": [],
+          "OTHER LEAVE, UL": [],
+          "RDO LEAVE": [],
+          "SICK LEAVE": [
+            "MCY",
+            "MCN"
+          ],
+          "SL WITHOUT PAY": [
+            "MCY",
+            "MCN"
+          ],
+          "STUDY LEAVE": [],
+          "STUDY WITHOUT PAY": [],
+          "VOLUNTEER LEAVE": [
+            "SAC",
+            "SED",
+            "SEY",
+            "SER",
+            "SEN",
+            "SHL",
+            "SOT",
+            "SSW",
+            "UAC",
+            "UED",
+            "UEY",
+            "UER",
+            "UEN",
+            "UHL",
+            "UOT",
+            "USW"
+          ]
+        },
+        "Part-Time": {
+          "ANNUAL LEAVE": [],
+          "CARERS LEAVE": [],
+          "CARERS WITHOUT PAY": [],
+          "CO PARENT LEAVE": [],
+          "LVE WITHOUT PAY": [],
+          "LIFESTYLE": [],
+          "LSLVE": [],
+          "LSLVE HP": [],
+          "LOYALTY": [],
+          "OTHER LEAVE, BL": [],
+          "OTHER LEAVE, JL": [],
+          "OTHER LEAVE, MD": [],
+          "OTHER LEAVE, ML": [],
+          "OTHER LEAVE, TL": [],
+          "OTHER LEAVE, UL": [],
+          "RDO LEAVE": [],
+          "SICK LEAVE": [
+            "MCY",
+            "MCN"
+          ],
+          "SL WITHOUT PAY": [
+            "MCY",
+            "MCN"
+          ],
+          "STUDY LEAVE": [],
+          "STUDY WITHOUT PAY": [],
+          "VOLUNTEER LEAVE": [
+            "SAC",
+            "SED",
+            "SEY",
+            "SER",
+            "SEN",
+            "SHL",
+            "SOT",
+            "SSW",
+            "UAC",
+            "UED",
+            "UEY",
+            "UER",
+            "UEN",
+            "UHL",
+            "UOT",
+            "USW"
+          ]
+        },
+        "Casual": {
+          "LVE WITHOUT PAY": [],
+          "LSLVE": [],
+          "LSLVE HP": []
+        }
+      },
+      "leaveFormTypesTop": [
+        "ANNUAL LEAVE",
+        "SICK LEAVE",
+        "CARERS LEAVE",
+        "RDO LEAVE"
+      ],
+      "payFormPatterns": {
+        "ALM": {
+          "formFields": [
+            "PayPeriodStart",
+            "MembershipAmount"
+          ]
+        },
+        "Calculated Hours": {
+          "formFields": [
+            "DateWorked",
+            "StartTime",
+            "EndTime",
+            "HoursCalculated",
+            "IncidentNumber"
+          ]
+        },
+        "Days": {
+          "formFields": [
+            "NumberOfDays",
+            "SatSunPublicDays"
+          ]
+        },
+        "Amount": {
+          "formFields": [
+            "Amount"
+          ]
+        },
+        "Kilometres": {
+          "formFields": [
+            "Kilometres"
+          ]
+        },
+        "Car Parking": {
+          "formFields": [
+            "AmountAPICall",
+            "PayPeriodStart"
+          ]
+        },
+        "Community Giving": {
+          "formFields": [
+            "PayPeriodStart",
+            "Donation",
+            "Amount"
+          ]
+        },
+        "Hours": {
+          "formFields": [
+            "Hours"
+          ]
+        },
+        "Meals": {
+          "formFields": [
+            "NumberOfMeals"
+          ]
+        },
+        "Superannuation": {
+          "formFields": [
+            "PayPeriodStart",
+            "DeductionOption",
+            "Amount"
+          ]
+        }
+      },
+      "payFormTypesTop": [
+        "OT",
+        "ORD",
+        "INC",
+        "MEAL"
+      ],
+      "payFormTypes": {
+        "ALL": {
+          "title": "Allowances",
+          "subTypes": {
+            "CALL BACK": {
+              "title": "Call Back allowance",
+              "pattern": "Calculated Hours"
+            },
+            "ON CALL": {
+              "title": "On Call allowance",
+              "pattern": "Days"
+            },
+            "RELOC PAYG": {
+              "title": "Relocation PAYG",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "ALM": {
+          "title": "Airport lounge m'ship",
+          "help": "Reimbursement requires manager approval and therefore payment will apply in the next available pay period post manager approval.",
+          "subTypes": {
+            "ALM": {
+              "title": "",
+              "pattern": "ALM"
+            }
+          }
+        },
+        "KMS": {
+          "title": "Business kilometres",
+          "subTypes": {
+            "BUS KM 4CYL": {
+              "title": "Novated lease km 4 cyl",
+              "pattern": "Kilometres"
+            },
+            "BUS KM 6CYL": {
+              "title": "Novated lease km 6 cyl",
+              "pattern": "Kilometres"
+            },
+            "BUS KM 8CYL": {
+              "title": "Novated lease km 8 cyl",
+              "pattern": "Kilometres"
+            },
+            "KM NON TAX": {
+              "title": "Prvt vehicle No PAYG",
+              "pattern": "Kilometres"
+            },
+            "KM TAX": {
+              "title": "Prvt vehicle PAYG",
+              "pattern": "Kilometres"
+            }
+          }
+        },
+        "CARP": {
+          "title": "Car parking",
+          "help": "Each location has a fixed rate that is calculated automatically once the location is selected.",
+          "subTypes": {
+            "ACT CBD": {
+              "title": "ACT CBD",
+              "pattern": "Car Parking"
+            },
+            "ADELAIDE CBD": {
+              "title": "Adelaide CBD",
+              "pattern": "Car Parking"
+            },
+            "BRISBANE CBD": {
+              "title": "Brisbane CBD",
+              "pattern": "Car Parking"
+            },
+            "BRISBANE METRO": {
+              "title": "Brisbane Metro",
+              "pattern": "Car Parking"
+            },
+            "DARWIN CBD": {
+              "title": "Darwin CBD",
+              "pattern": "Car Parking"
+            },
+            "HOBART CBD": {
+              "title": "Hobart CBD",
+              "pattern": "Car Parking"
+            },
+            "MELBOURNE CBD": {
+              "title": "Melbourne CBD",
+              "pattern": "Car Parking"
+            },
+            "MELBOURNE AIRPORT": {
+              "title": "Melbourne Airport",
+              "pattern": "Car Parking"
+            },
+            "MELBOURNE METRO": {
+              "title": "Melbourne Metro",
+              "pattern": "Car Parking"
+            },
+            "MELBOURNE DOCKLAND": {
+              "title": "Melbourne Docklands",
+              "pattern": "Car Parking"
+            },
+            "NORTH SYDNEY": {
+              "title": "North Sydney",
+              "pattern": "Car Parking"
+            },
+            "PARRAMATTA": {
+              "title": "Parramatta",
+              "pattern": "Car Parking"
+            },
+            "PERTH CBD": {
+              "title": "Perth CBD",
+              "pattern": "Car Parking"
+            },
+            "PERTH METRO": {
+              "title": "Perth Metro",
+              "pattern": "Car Parking"
+            },
+            "SYDNEY CBD": {
+              "title": "Sydney CBD",
+              "pattern": "Car Parking"
+            },
+            "SYDNEY METRO": {
+              "title": "Sydney Metro",
+              "pattern": "Car Parking"
+            },
+            "SYDNEY MOTORBIKE": {
+              "title": "Sydney Motorbike",
+              "pattern": "Car Parking"
+            },
+            "WOLLONGONG": {
+              "title": "Wollongong",
+              "pattern": "Car Parking"
+            }
+          }
+        },
+        "CGIV": {
+          "title": "Community Giving",
+          "help": "Also referred to as Workplace Giving. Payments can either be serviced as an on-going deduction or can be made as a once off donation.",
+          "subTypes": {
+            "COMMTY GIVIN, EE AA": {
+              "title": "Alzheimer's Australia",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE ASF": {
+              "title": "ANZ Staff Foundation",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE AVI": {
+              "title": "Australian Volunteers Intl",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE BB": {
+              "title": "Beyond Blue",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE BS": {
+              "title": "Benevolent Society",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE BSL": {
+              "title": "B'hood St Laurence",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE BST": {
+              "title": "Berry Street",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE CAN": {
+              "title": "Canteen",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE CCA": {
+              "title": "Cancer Council of Aust",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE CS": {
+              "title": "Child Sponsorship",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE DIA": {
+              "title": "Diabetes Research",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE IWDA": {
+              "title": "IWDA",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE JR DB": {
+              "title": "Juv Diabetes Research",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE KHL": {
+              "title": "Kids Help Line",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE MAWF": {
+              "title": "Make-A-Wish FDN",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE NBCF": {
+              "title": "Natl. Breast Cancer FDN",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE NHF": {
+              "title": "National Heart FDN",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE RC": {
+              "title": "Red Cross",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE RSPCA": {
+              "title": "RSPCA",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE SF": {
+              "title": "Starlight Foundation",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE TSF": {
+              "title": "The Smith Family",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE WV": {
+              "title": "World Vision",
+              "pattern": "Community Giving"
+            },
+            "COMMTY GIVIN, EE WWF": {
+              "title": "WWF",
+              "pattern": "Community Giving"
+            }
+          }
+        },
+        "EDU": {
+          "title": "Education",
+          "subTypes": {
+            "HELP REIM": {
+              "title": "HELP fee reimb No GST",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "STUDY NOGST": {
+              "title": "Study reimb No GST",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "STUDY GST": {
+              "title": "Study reimb GST",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "INC": {
+          "title": "Incentive",
+          "subTypes": {
+            "EXTENDED 030": {
+              "title": "Ext hrs load 0.30",
+              "help": "Applicable for contracted hours worked commencing before 7.00 am and after 7.00 pm - Monday to Friday.",
+              "pattern": "Hours"
+            },
+            "EXTENDED 050": {
+              "title": "Ext hrs load 0.50",
+              "help": "Applicable for contracted hours worked commencing from 8.00 am to 4.00 pm on Saturday. This loading may be used for penalty rates on public holidays as applicable.",
+              "pattern": "Hours"
+            },
+            "EXTENDED 100": {
+              "title": "Ext hrs load 1.00",
+              "help": "Applicable for contracted hours worked commencing before 8.00 am and after 4.00 p.m. on Saturdays, Sundays and all public holidays.",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "MEAL": {
+          "title": "Meal Money",
+          "subTypes": {
+            "MEAL": {
+              "title": "",
+              "pattern": "Meals"
+            }
+          }
+        },
+        "MOTR": {
+          "title": "Motor Vehicle",
+          "subTypes": {
+            "INC BNK CAR": {
+              "title": "Bank car incdtl",
+              "help": "Reimbursement of Tool Of Trade costs paid by employee. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "INC CAR PRK": {
+              "title": "Car park incdtl FBT",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "OT": {
+          "title": "Overtime",
+          "subTypes": {
+            "OT 100": {
+              "title": "Overtime load 1.00",
+              "help": "Applicable for single time payments i.e. travelling time, etc.",
+              "pattern": "Hours"
+            },
+            "OT 125": {
+              "title": "Overtime load 1.25",
+              "help": "25% PAC (Pay Above Contract) loading for part timers who work outside contracted hours up to 152 hours per 4 weekly cycle.",
+              "pattern": "Hours"
+            },
+            "OT 150": {
+              "title": "Overtime load 1.50",
+              "help": "Applicable for the first 12 hours over 152/160 per 4 weekly cycle.   Enter the date/s or the 4 weekly cycle date range in the comments section.",
+              "pattern": "Hours"
+            },
+            "OT 200": {
+              "title": "Overtime load 2.00",
+              "help": "Applicable for working more than 12 hours over 152/160 per 4 weekly cycle or overtime on a Saturday or Sunday. Enter the date/s or the 4 weekly cycle date range in the comments section.",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "RDOP": {
+          "title": "Payout of RDO",
+          "subTypes": {
+            "RDO PAYOUT": {
+              "title": "Payout",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "RMB": {
+          "title": "Reimbursements",
+          "subTypes": {
+            "CHLDCARE COS": {
+              "title": "Childcare cost FBT",
+              "help": "Reimbursement of additional child care costs, when a part-time employee attends bank requested training sessions or staff meetings when they are not scheduled to work. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "ENTMT MEAL": {
+              "title": "Entmt - meals",
+              "help": "Meals for clients / potential clients or guests of ANZ. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "ENTMT NOMEAL": {
+              "title": "Entmt - non meals FBT",
+              "help": "Movie, theatre tickets, drinks etc for clients or potential clients. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "INC EXPENSES": {
+              "title": "Incidental expenses",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "REL": {
+          "title": "Relocation",
+          "subTypes": {
+            "INT AGN INC": {
+              "title": "Intl assignee incidentals",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "INT TFR UTIL": {
+              "title": "Intl tfr utilities FBT",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "RELOC ED": {
+              "title": "Educ/Board fees FBT",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "RELOC BS NG": {
+              "title": "Home buy/sell loss",
+              "help": "Reimbursement of stamp duty costs for eligible employees who sell/buy their home (principal place of residence).",
+              "pattern": "Amount"
+            },
+            "RELOC DOM LV": {
+              "title": "Domestic (living)",
+              "help": "A reimbursement of meals and laundry expenses while staying in transit accommodation. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "RELOC DOM TR": {
+              "title": "Domestic (travel)",
+              "help": "Reimbursement of taxi and train fares for pre-appointment visit and/or relocation, includes airfares.",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "SHFT": {
+          "title": "Shift Loading",
+          "subTypes": {
+            "SHFTLD AFT": {
+              "title": "Shift Ld afternoon",
+              "help": "Loading of 15% for starting a shift at or after 11.00am but before 7.00pm.",
+              "pattern": "Hours"
+            },
+            "SHFTLD MORN": {
+              "title": "Shift Ld morning",
+              "help": "Loading of 12.5% for starting a shift at or after 4.00am but before 7.00am.",
+              "pattern": "Hours"
+            },
+            "SHFTLD NGHT": {
+              "title": "Shift Ld night",
+              "help": "Loading of 27.5% for starting a shift at or after 7.00pm but before 4.00am the next day.",
+              "pattern": "Hours"
+            },
+            "SHFTLD WKND": {
+              "title": "Shift Ld wknd/ph",
+              "help": "Loading of 100% applies when more than half of an employees shift falls on a Saturday, Sunday, or Public Holiday.",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "TRVL": {
+          "title": "Travel",
+          "subTypes": {
+            "DOM TRAVEL": {
+              "title": "Domestic allowance",
+              "help": "This non-taxed allowance covers meal costs and miscellaneous costs such as telephone and dry cleaning while travelling domestically on ANZ business.  Domestic travel includes New Zealand.",
+              "pattern": "Amount"
+            },
+            "TRAV VACC": {
+              "title": "Med costs & trav vacc FBT",
+              "help": "Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "TRV FARES": {
+              "title": "Excess fare FBT",
+              "help": "Reimbursement for travelling costs following ANZ initiated relocations. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "TRAV EXP MED": {
+              "title": "Exp remote medic FBT",
+              "help": "Travel expenses for fares for an employee and their dependants where they are working at a country branch due to an ANZ-initiated relocation and need to travel more than 200 km to obtain treatment. Evidence is required in the form of receipts.",
+              "pattern": "Amount"
+            },
+            "TRAV INC EXP": {
+              "title": "Incidental expenses",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "ORD": {
+          "title": "Ordinary hours - casual salary",
+          "subTypes": {
+            "CAS SALARY": {
+              "title": "",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "SUP": {
+          "title": "Superannuation",
+          "subTypes": {
+            "PRTX VOL SUP": {
+              "title": "Pre tax Vol Super",
+              "help": "Enter the percentage or dollar amount of additional contributions you wish to make before tax.",
+              "pattern": "Superannuation"
+            },
+            "PSTX VOL SUP": {
+              "title": "Post tax Vol Super",
+              "help": "Enter the percentage or dollar amount of additional contributions you wish to make after tax.",
+              "pattern": "Superannuation"
+            }
+          }
+        }
+      },
+      "payFormTypesByEmployeeType": {
+        "Full-Time": {
+          "ALL": [
+            "CALL BACK",
+            "ON CALL",
+            "RELOC PAYG"
+          ],
+          "ALM": [
+            "ALM"
+          ],
+          "KMS": [
+            "BUS KM 4CYL",
+            "BUS KM 6CYL",
+            "BUS KM 8CYL",
+            "KM NON TAX",
+            "KM TAX"
+          ],
+          "CARP": [
+            "ACT CBD",
+            "ADELAIDE CBD",
+            "BRISBANE CBD",
+            "BRISBANE METRO",
+            "DARWIN CBD",
+            "HOBART CBD",
+            "MELBOURNE CBD",
+            "MELBOURNE AIRPORT",
+            "MELBOURNE METRO",
+            "MELBOURNE DOCKLAND",
+            "NORTH SYDNEY",
+            "PARRAMATTA",
+            "PERTH CBD",
+            "PERTH METRO",
+            "SYDNEY CBD",
+            "SYDNEY METRO",
+            "SYDNEY MOTORBIKE",
+            "WOLLONGONG"
+          ],
+          "CGIV": [
+            "COMMTY GIVIN, EE AA",
+            "COMMTY GIVIN, EE ASF",
+            "COMMTY GIVIN, EE AVI",
+            "COMMTY GIVIN, EE BB",
+            "COMMTY GIVIN, EE BS",
+            "COMMTY GIVIN, EE BSL",
+            "COMMTY GIVIN, EE BST",
+            "COMMTY GIVIN, EE CAN",
+            "COMMTY GIVIN, EE CCA",
+            "COMMTY GIVIN, EE CS",
+            "COMMTY GIVIN, EE DIA",
+            "COMMTY GIVIN, EE IWDA",
+            "COMMTY GIVIN, EE JR DB",
+            "COMMTY GIVIN, EE KHL",
+            "COMMTY GIVIN, EE MAWF",
+            "COMMTY GIVIN, EE NBCF",
+            "COMMTY GIVIN, EE NHF",
+            "COMMTY GIVIN, EE RC",
+            "COMMTY GIVIN, EE RSPCA",
+            "COMMTY GIVIN, EE SF",
+            "COMMTY GIVIN, EE TSF",
+            "COMMTY GIVIN, EE WV",
+            "COMMTY GIVIN, EE WWF"
+          ],
+          "EDU": [
+            "HELP REIM",
+            "STUDY NOGST",
+            "STUDY GST"
+          ],
+          "INC": [
+            "EXTENDED 030",
+            "EXTENDED 050",
+            "EXTENDED 100"
+          ],
+          "MEAL": [
+            "MEAL"
+          ],
+          "MOTR": [
+            "INC BNK CAR",
+            "INC CAR PRK"
+          ],
+          "OT": [
+            "OT 100",
+            "OT 125",
+            "OT 150",
+            "OT 200"
+          ],
+          "RDOP": [
+            "RDO PAYOUT"
+          ],
+          "RMB": [
+            "CHLDCARE COS",
+            "ENTMT MEAL",
+            "ENTMT NOMEAL",
+            "INC EXPENSES"
+          ],
+          "REL": [
+            "INT AGN INC",
+            "INT TFR UTIL",
+            "RELOC ED",
+            "RELOC BS NG",
+            "RELOC DOM LV",
+            "RELOC DOM TR"
+          ],
+          "SHFT": [
+            "SHFTLD AFT",
+            "SHFTLD MORN",
+            "SHFTLD NGHT",
+            "SHFTLD WKND"
+          ],
+          "TRVL": [
+            "DOM TRAVEL",
+            "TRAV VACC",
+            "TRV FARES",
+            "TRAV EXP MED",
+            "TRAV INC EXP"
+          ],
+          "SUP": [
+            "PRTX VOL SUP",
+            "PSTX VOL SUP"
+          ]
+        },
+        "Part-Time": {
+          "ALL": [
+            "CALL BACK",
+            "ON CALL",
+            "RELOC PAYG"
+          ],
+          "ALM": [
+            "ALM"
+          ],
+          "KMS": [
+            "BUS KM 4CYL",
+            "BUS KM 6CYL",
+            "BUS KM 8CYL",
+            "KM NON TAX",
+            "KM TAX"
+          ],
+          "CARP": [
+            "ACT CBD",
+            "ADELAIDE CBD",
+            "BRISBANE CBD",
+            "BRISBANE METRO",
+            "DARWIN CBD",
+            "HOBART CBD",
+            "MELBOURNE CBD",
+            "MELBOURNE AIRPORT",
+            "MELBOURNE METRO",
+            "MELBOURNE DOCKLAND",
+            "NORTH SYDNEY",
+            "PARRAMATTA",
+            "PERTH CBD",
+            "PERTH METRO",
+            "SYDNEY CBD",
+            "SYDNEY METRO",
+            "SYDNEY MOTORBIKE",
+            "WOLLONGONG"
+          ],
+          "CGIV": [
+            "COMMTY GIVIN, EE AA",
+            "COMMTY GIVIN, EE ASF",
+            "COMMTY GIVIN, EE AVI",
+            "COMMTY GIVIN, EE BB",
+            "COMMTY GIVIN, EE BS",
+            "COMMTY GIVIN, EE BSL",
+            "COMMTY GIVIN, EE BST",
+            "COMMTY GIVIN, EE CAN",
+            "COMMTY GIVIN, EE CCA",
+            "COMMTY GIVIN, EE CS",
+            "COMMTY GIVIN, EE DIA",
+            "COMMTY GIVIN, EE IWDA",
+            "COMMTY GIVIN, EE JR DB",
+            "COMMTY GIVIN, EE KHL",
+            "COMMTY GIVIN, EE MAWF",
+            "COMMTY GIVIN, EE NBCF",
+            "COMMTY GIVIN, EE NHF",
+            "COMMTY GIVIN, EE RC",
+            "COMMTY GIVIN, EE RSPCA",
+            "COMMTY GIVIN, EE SF",
+            "COMMTY GIVIN, EE TSF",
+            "COMMTY GIVIN, EE WV",
+            "COMMTY GIVIN, EE WWF"
+          ],
+          "EDU": [
+            "HELP REIM",
+            "STUDY NOGST",
+            "STUDY GST"
+          ],
+          "INC": [
+            "EXTENDED 030",
+            "EXTENDED 050",
+            "EXTENDED 100"
+          ],
+          "MEAL": [
+            "MEAL"
+          ],
+          "MOTR": [
+            "INC BNK CAR",
+            "INC CAR PRK"
+          ],
+          "OT": [
+            "OT 100",
+            "OT 125",
+            "OT 150",
+            "OT 200"
+          ],
+          "RDOP": [
+            "RDO PAYOUT"
+          ],
+          "RMB": [
+            "CHLDCARE COS",
+            "ENTMT MEAL",
+            "ENTMT NOMEAL",
+            "INC EXPENSES"
+          ],
+          "REL": [
+            "INT AGN INC",
+            "INT TFR UTIL",
+            "RELOC ED",
+            "RELOC BS NG",
+            "RELOC DOM LV",
+            "RELOC DOM TR"
+          ],
+          "SHFT": [
+            "SHFTLD AFT",
+            "SHFTLD MORN",
+            "SHFTLD NGHT",
+            "SHFTLD WKND"
+          ],
+          "TRVL": [
+            "DOM TRAVEL",
+            "TRAV VACC",
+            "TRV FARES",
+            "TRAV EXP MED",
+            "TRAV INC EXP"
+          ],
+          "SUP": [
+            "PRTX VOL SUP",
+            "PSTX VOL SUP"
+          ]
+        },
+        "Casual": {
+          "INC": [
+            "EXTENDED 030",
+            "EXTENDED 050",
+            "EXTENDED 100"
+          ],
+          "KMS": [
+            "KM NON TAX",
+            "KM TAX"
+          ],
+          "MEAL": [
+            "MEAL"
+          ],
+          "ORD": [
+            "CAS SALARY"
+          ],
+          "SHFT": [
+            "SHFTLD AFT",
+            "SHFTLD MORN",
+            "SHFTLD NGHT",
+            "SHFTLD WKND"
+          ],
+          "TRVL": [
+            "DOM TRAVEL",
+            "TRAV INC EXP"
+          ],
+          "SUP": [
+            "PRTX VOL SUP",
+            "PSTX VOL SUP"
+          ]
+        }
+      },
+      "primarySummaryLeaveType": [
+        "ANNUAL LEAVE",
+        "Annual leave available"
+      ],
+      "secondarySummaryLeaveType": [
+        "SICK LEAVE",
+        "Paid sick leave available"
+      ],
+      "showLeaveBalance": [
+        "ANNUAL LEAVE",
+        "SICK LEAVE",
+        "LIFESTYLE",
+        "LSLVE",
+        "RDO LEAVE",
+        "LOYALTY"
+      ]
+    },
+    "NZL": {
+      "leaveHelpTitle": "Leave Available & Leave Booked",
+      "leaveHelp": "Leave Available differs from the Annual leave entitlement displayed in PeopleSoft.\n\nIn the app, we have removed any future booked annual leave so what you see is what you have available right now.\n\nThe Leave Booked balance reflects the total of all your approved future leave requests.",
+      "payHelpTitle": "Last Pay and Next Pay",
+      "payHelp": "'Last Pay' is your most recent pay.\n\n'Next Pay' is the subsequent pay date following the last pay.",
+      "amendLeaveEmailAddress": "PayrollHROperations@anz.com",
+      "leaveFormSubTypes": {
+        "VOL TKE PD": {
+          "SAC": "Skilled Arts & culture",
+          "SED": "Skilled Economic dev",
+          "SEY": "Skilled Edu & yng ppl",
+          "SER": "Skilled Emrgncy relief",
+          "SEN": "Skilled Environment",
+          "SHL": "Skilled Health",
+          "SOT": "Skilled Other",
+          "SSW": "Skilled Social welfare",
+          "UAC": "Unskilled Arts & culture",
+          "UED": "Unskilled Economic dev",
+          "UEY": "Unskilled Edu & yng ppl",
+          "UER": "Unskilled Emrgncy relief",
+          "UEN": "Unskilled Environment",
+          "UHL": "Unskilled Health",
+          "UOT": "Unskilled Other",
+          "USW": "Unskilled Social welfare"
+        },
+        "CASUAL LVE PD": {
+          "OTH": "Casual other leave",
+          "SCK": "Casual sick leave"
+        }
+      },
+      "leaveFormTypeBalanceMap": {},
+      "leaveFormTypes": {
+        "ANN LEAVE": "Annual leave",
+        "SICK LVE PD": "Sick leave - paid",
+        "SICK LVE UPD": "Sick leave - unpaid",
+        "CARERS PD": "Carer's leave - paid",
+        "CARERS UPD": "Carer's leave - unpaid",
+        "OTHER PD, BL": "Bereavement leave",
+        "OTHER PD, ERE": "Emplmt relations edu leave",
+        "OTHER PD, HSR": "Health & Safety Rep leave",
+        "OTHER PD, JL": "Jury Service leave",
+        "OTHER PD, ML": "Military Service leave",
+        "OTHER PD, TOL": "Time off in lieu",
+        "OTHER PD, MD": "Manager's discretion",
+        "LIFESTYLE PD": "Lifestyle leave",
+        "LVE WITHOUT PAY": "Leave without pay",
+        "LSL PD": "Long Service leave",
+        "LOYALTY": "Loyalty Leave",
+        "STUDY PD": "Study leave - paid",
+        "STUDY UPD": "Study leave - unpaid",
+        "ALTERNATE HOLIDAY": "Alternate holiday",
+        "CASUAL LVE PD": "Casual leave, paid",
+        "FAMILY PD": "Family leave - paid",
+        "FAMILY UPD": "Family leave - unpaid",
+        "VOL TKE PD": "Volunteer leave"
+      },
+      "leaveFormTypesByEmployeeType": {
+        "Full-Time": {
+          "ANN LEAVE": [],
+          "SICK LVE PD": [],
+          "SICK LVE UPD": [],
+          "CARERS PD": [],
+          "CARERS UPD": [],
+          "OTHER PD, BL": [],
+          "OTHER PD, ERE": [],
+          "OTHER PD, HSR": [],
+          "OTHER PD, JL": [],
+          "OTHER PD, ML": [],
+          "OTHER PD, TOL": [],
+          "OTHER PD, MD": [],
+          "LIFESTYLE PD": [],
+          "LVE WITHOUT PAY": [],
+          "LSL PD": [],
+          "LOYALTY": [],
+          "STUDY PD": [],
+          "STUDY UPD": [],
+          "ALTERNATE HOLIDAY": [],
+          "FAMILY PD": [],
+          "FAMILY UPD": [],
+          "VOL TKE PD": [
+            "SAC",
+            "SED",
+            "SEY",
+            "SER",
+            "SEN",
+            "SHL",
+            "SOT",
+            "SSW",
+            "UAC",
+            "UED",
+            "UEY",
+            "UER",
+            "UED",
+            "UHL",
+            "UOT",
+            "USW"
+          ]
+        },
+        "Part-Time": {
+          "ANN LEAVE": [],
+          "SICK LVE PD": [],
+          "SICK LVE UPD": [],
+          "CARERS PD": [],
+          "CARERS UPD": [],
+          "OTHER PD, BL": [],
+          "OTHER PD, ERE": [],
+          "OTHER PD, HSR": [],
+          "OTHER PD, JL": [],
+          "OTHER PD, ML": [],
+          "OTHER PD, TOL": [],
+          "OTHER PD, MD": [],
+          "LIFESTYLE PD": [],
+          "LVE WITHOUT PAY": [],
+          "LSL PD": [],
+          "LOYALTY": [],
+          "STUDY PD": [],
+          "STUDY UPD": [],
+          "ALTERNATE HOLIDAY": [],
+          "FAMILY PD": [],
+          "FAMILY UPD": [],
+          "VOL TKE PD": [
+            "SAC",
+            "SED",
+            "SEY",
+            "SER",
+            "SEN",
+            "SHL",
+            "SOT",
+            "SSW",
+            "UAC",
+            "UED",
+            "UEY",
+            "UER",
+            "UEN",
+            "UHL",
+            "UOT",
+            "USW"
+          ]
+        },
+        "Casual": {
+          "CASUAL LVE PD": [
+            "OTH",
+            "SCK"
+          ]
+        }
+      },
+      "leaveFormTypesTop": [
+        "ANN LEAVE",
+        "SICK LVE PD",
+        "CARERS PD"
+      ],
+      "payFormPatterns": {
+        "Allowance": {
+          "formFields": [
+            "DateWorked",
+            "Allowances"
+          ]
+        },
+        "Amount": {
+          "formFields": [
+            "DateWorked",
+            "Amount"
+          ]
+        },
+        "Community Giving": {
+          "formFields": [
+            "PayPeriodStart",
+            "Donation",
+            "Amount"
+          ]
+        },
+        "Hours": {
+          "formFields": [
+            "DateWorked",
+            "Hours"
+          ]
+        },
+        "Meals": {
+          "formFields": [
+            "DateWorked",
+            "NumberOfMeals"
+          ]
+        },
+        "Perdiem": {
+          "formFields": [
+            "DateWorked",
+            "NumberOfDays"
+          ]
+        }
+      },
+      "payFormTypes": {
+        "ALL": {
+          "title": "Allowances",
+          "subTypes": {
+            "MEAL": {
+              "title": "Meal money",
+              "pattern": "Meals"
+            },
+            "SHIFT ALW 15": {
+              "title": "Shift allowance 15%",
+              "pattern": "Hours"
+            },
+            "STBY ALW MGR": {
+              "title": "Standby allow IT Mgr",
+              "pattern": "Allowance"
+            },
+            "STBY ALW MF": {
+              "title": "Standby allow Mon to Fri",
+              "pattern": "Allowance"
+            },
+            "STBY ALW PH": {
+              "title": "Standby allow pub hol",
+              "pattern": "Allowance"
+            },
+            "STBY ALW SS": {
+              "title": "Standby allow Sat & Sun",
+              "pattern": "Allowance"
+            },
+            "SHIFT TWILIT": {
+              "title": "Twilight shift",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "CAS": {
+          "title": "Casual payments",
+          "subTypes": {
+            "CAS ALW 13": {
+              "title": "Casual allowance 13%",
+              "pattern": "Hours"
+            },
+            "CAS ALW 15": {
+              "title": "Casual allowance 15%",
+              "pattern": "Hours"
+            },
+            "CASUAL PAY": {
+              "title": "Casual earnings",
+              "pattern": "Hours"
+            },
+            "CAS OT X1.5": {
+              "title": "Casual overtime T1.5",
+              "pattern": "Hours"
+            },
+            "CAS OT X2": {
+              "title": "Casual overtime T2",
+              "pattern": "Hours"
+            },
+            "CAS PEN 50": {
+              "title": "Casual penalty at 50%",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "EXP": {
+          "title": "Expenses",
+          "subTypes": {
+            "ACCOM OS": {
+              "title": "Accom (overseas)",
+              "pattern": "Amount"
+            },
+            "ENTMNT CUST": {
+              "title": "Entmnt customer",
+              "pattern": "Amount"
+            },
+            "ENTMNT STAFF": {
+              "title": "Entmnt staff",
+              "pattern": "Amount"
+            },
+            "EXP REIMBRS": {
+              "title": "Expense reimburs",
+              "help": "Bank Business, Operating Costs, Additional Staff Expenses, General Stationery, Printing Costs.",
+              "pattern": "Amount"
+            },
+            "GIFTS&PRIZES": {
+              "title": "Gifts & prizes > $300 - staff",
+              "pattern": "Amount"
+            },
+            "MEAL OVS": {
+              "title": "Meals (overseas)",
+              "pattern": "Amount"
+            },
+            "MTA DOMESTIC": {
+              "title": "Meals, taxi & accom (dom)",
+              "pattern": "Amount"
+            },
+            "MEDICAL EXP": {
+              "title": "Medical expenses",
+              "help": "This does not include work or non-work related injuries.",
+              "pattern": "Amount"
+            },
+            "OFC EQUIP MN": {
+              "title": "Office equip - minor",
+              "pattern": "Amount"
+            },
+            "RELOC DOM": {
+              "title": "Relocation dom reimburs",
+              "pattern": "Amount"
+            },
+            "STUDY EXP": {
+              "title": "Study expenses",
+              "pattern": "Amount"
+            },
+            "TAXI OVS": {
+              "title": "Taxi (overseas)",
+              "pattern": "Amount"
+            },
+            "TRAVEL": {
+              "title": "Travel costs",
+              "pattern": "Amount"
+            }
+          }
+        },
+        "OTH": {
+          "title": "Other claims",
+          "subTypes": {
+            "CHILD CARE": {
+              "title": "Childcare contribution",
+              "help": "An allowance paid as a result of having to work additional hours (overtime) which results in extra childcare costs.",
+              "pattern": "Amount"
+            },
+            "DOM DLY ALW": {
+              "title": "Domestic daily allownce",
+              "help": "Reimbursement for expenses incurred while on temporary duties away from home.",
+              "pattern": "Amount"
+            },
+            "KM REIMB": {
+              "title": "KM reimbursement",
+              "help": "If the use of a private vehicle for ANZ business has been approved, you may be paid a reimbursement for kilometres travelled at the rate published by Inland Revenue Department.",
+              "pattern": "Amount"
+            },
+            "PER DIEM": {
+              "title": "Per diem out of pocket exp",
+              "pattern": "Perdiem"
+            }
+          }
+        },
+        "OVR": {
+          "title": "Overtime/public hols",
+          "subTypes": {
+            "ALT HOL ACR": {
+              "title": "Accrue alt hol (hrs)",
+              "help": "To receive a payment at normal hourly rate for working additional hours.",
+              "pattern": "Hours"
+            },
+            "ADD HRS X1": {
+              "title": "Add. hours at time one",
+              "help": "Number of hours worked on a public holiday. Enter the date of the public holiday as \"Date Worked\"",
+              "pattern": "Hours"
+            },
+            "OT X1.5": {
+              "title": "Overtime time and half",
+              "pattern": "Hours"
+            },
+            "OT X2": {
+              "title": "Overtime X 2",
+              "pattern": "Hours"
+            },
+            "PUB HOL X1": {
+              "title": "Pub hol penalty at 100%",
+              "pattern": "Hours"
+            },
+            "PUB HOL X.5": {
+              "title": "Pub hol penalty at 50%",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "PEN": {
+          "title": "Penalty payments",
+          "subTypes": {
+            "PENALTY X1": {
+              "title": "Penalty pymt at time one",
+              "pattern": "Hours"
+            },
+            "PENALTY X.5": {
+              "title": "Penalty pymt at 50%",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "SBY": {
+          "title": "Standby/callout",
+          "subTypes": {
+            "CALL IT X2": {
+              "title": "Callout double time (IT mgr)",
+              "pattern": "Hours"
+            },
+            "CALL IT X1.5": {
+              "title": "Callout time & half (IT mgr)",
+              "pattern": "Hours"
+            }
+          }
+        },
+        "DED": {
+          "title": "Deduction",
+          "subTypes": {
+            "PAYROLL GIVING": {
+              "title": "Payroll Giving",
+              "pattern": "Community Giving"
+            }
+          }
+        }
+      },
+      "payFormTypesByEmployeeType": {
+        "0": {},
+        "ANZITM": {},
+        "CASNZ": {
+          "ALL": [
+            "MEAL"
+          ],
+          "CAS": [
+            "CAS ALW 13",
+            "CAS ALW 15",
+            "CASUAL PAY",
+            "CAS OT X1.5",
+            "CAS OT X2",
+            "CAS PEN 50"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB"
+          ]
+        },
+        "ITM": {
+          "ALL": [
+            "STBY ALW MGR"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT CUST",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "DOM DLY ALW",
+            "KM REIMB"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X.5"
+          ],
+          "SBY": [
+            "CALL IT X1.5",
+            "CALL IT X2"
+          ]
+        },
+        "MGRNZ": {
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT CUST",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "OT X1.5",
+            "PUB HOL X.5"
+          ]
+        },
+        "NBCASNZ": {
+          "ALL": [
+            "MEAL"
+          ],
+          "CAS": [
+            "CAS ALW 13",
+            "CAS ALW 15",
+            "CASUAL PAY",
+            "CAS OT X1.5",
+            "CAS OT X2",
+            "CAS PEN 50"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB"
+          ]
+        },
+        "NBCC": {
+          "ALL": [
+            "MEAL",
+            "SHIFT ALW 15",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5"
+          ]
+        },
+        "NBIO": {
+          "ALL": [
+            "MEAL",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ]
+        },
+        "NBIS": {
+          "ALL": [
+            "MEAL",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5"
+          ]
+        },
+        "NBITM": {
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT CUST",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "KM REIMB"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "PUB HOL X.5"
+          ],
+          "SBY": [
+            "CALL IT X1.5"
+          ]
+        },
+        "NBKIOSK": {
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "OT X1.5",
+            "PUB HOL X.5"
+          ]
+        },
+        "NBREGNZNZA": {
+          "ALL": [
+            "MEAL",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5"
+          ]
+        },
+        "NBTS": {
+          "ALL": [
+            "MEAL",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS",
+            "SHIFT TWILIT"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5",
+            "PENALTY X1"
+          ]
+        },
+        "REGNZEFP": {},
+        "REGNZEFT": {
+          "ALL": [
+            "SHIFT ALW 15",
+            "SHIFT TWILIT"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5"
+          ]
+        },
+        "REGNZNON": {},
+        "REGNZNZA": {
+          "ALL": [
+            "MEAL",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS",
+            "SHIFT ALW 15"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5"
+          ]
+        },
+        "REGNZUDC": {
+          "ALL": [
+            "MEAL",
+            "STBY ALW MF",
+            "STBY ALW PH",
+            "STBY ALW SS",
+            "SHIFT ALW 15"
+          ],
+          "DED": [
+            "PAYROLL GIVING"
+          ],
+          "EXP": [
+            "ACCOM OS",
+            "ENTMNT STAFF",
+            "EXP REIMBRS",
+            "GIFTS&PRIZES",
+            "MEAL OVS",
+            "MTA DOMESTIC",
+            "MEDICAL EXP",
+            "OFC EQUIP MN",
+            "RELOC DOM",
+            "STUDY EXP",
+            "TAXI OVS",
+            "TRAVEL"
+          ],
+          "OTH": [
+            "CHILD CARE",
+            "DOM DLY ALW",
+            "KM REIMB",
+            "PER DIEM"
+          ],
+          "OVR": [
+            "ALT HOL ACR",
+            "ADD HRS X1",
+            "OT X1.5",
+            "OT X2",
+            "PUB HOL X1"
+          ],
+          "PEN": [
+            "PENALTY X.5"
+          ]
+        }
+      },
+      "primarySummaryLeaveType": [
+        "ANN LEAVE",
+        "Annual leave available"
+      ],
+      "secondarySummaryLeaveType": [],
+      "showLeaveBalance": [
+        "ANN LEAVE",
+        "LIFESTYLE PD",
+        "ALTERNATE HOLIDAY"
+      ]
+    }
+  },
+  "dialCodes":     [{
+    "phoneCode"   : "+61",
+    "countryCode" : "AUS",
+    "countryName" : "Australia"
+  },
+    {
+      "phoneCode"   : "+91",
+      "countryCode" : "IND",
+      "countryName" : "India"
+    },
+    {
+      "phoneCode"   : "+64",
+      "countryCode" : "NZL",
+      "countryName" : "New Zealand"
+    },
+    {
+      "phoneCode"   : "+1-684",
+      "countryCode" : "ASM",
+      "countryName" : "American Samoa"
+    },
+    {
+      "phoneCode"   : "+54",
+      "countryCode" : "ARG",
+      "countryName" : "Argentina"
+    },
+    {
+      "phoneCode"   : "+43",
+      "countryCode" : "AUT",
+      "countryName" : "Austria"
+    },
+    {
+      "phoneCode"   : "+880",
+      "countryCode" : "BGD",
+      "countryName" : "Bangladesh"
+    },
+    {
+      "phoneCode"   : "+32",
+      "countryCode" : "BEL",
+      "countryName" : "Belgium"
+    },
+    {
+      "phoneCode"   : "+855",
+      "countryCode" : "KHM",
+      "countryName" : "Cambodia"
+    },
+    {
+      "phoneCode"   : "+1",
+      "countryCode" : "CAN",
+      "countryName" : "Canada"
+    },
+    {
+      "phoneCode"   : "+56",
+      "countryCode" : "CHL",
+      "countryName" : "Chile"
+    },
+    {
+      "phoneCode"   : "+86",
+      "countryCode" : "CHN",
+      "countryName" : "China"
+    },
+    {
+      "phoneCode"   : "+682",
+      "countryCode" : "COK",
+      "countryName" : "Cook Islands"
+    },
+    {
+      "phoneCode"   : "+45",
+      "countryCode" : "DNK",
+      "countryName" : "Denmark"
+    },
+    {
+      "phoneCode"   : "+679",
+      "countryCode" : "FJI",
+      "countryName" : "Fiji"
+    },
+    {
+      "phoneCode"   : "+33",
+      "countryCode" : "FRA",
+      "countryName" : "France"
+    },
+    {
+      "phoneCode"   : "+49",
+      "countryCode" : "DEU",
+      "countryName" : "Germany"
+    },
+    {
+      "phoneCode"   : "+1-671",
+      "countryCode" : "GUM",
+      "countryName" : "Guam"
+    },
+    {
+      "phoneCode"   : "+852",
+      "countryCode" : "HKG",
+      "countryName" : "Hong Kong"
+    },
+    {
+      "phoneCode"   : "+62",
+      "countryCode" : "IDN",
+      "countryName" : "Indonesia"
+    },
+    {
+      "phoneCode"   : "+81",
+      "countryCode" : "JPN",
+      "countryName" : "Japan"
+    },
+    {
+      "phoneCode"   : "+686",
+      "countryCode" : "KIR",
+      "countryName" : "Kiribati"
+    },
+    {
+      "phoneCode"   : "+82",
+      "countryCode" : "KOR",
+      "countryName" : "Korea (the Republic of)"
+    },
+    {
+      "phoneCode"   : "+850",
+      "countryCode" : "PRK",
+      "countryName" : "Korea, Democratic People's Rep"
+    },
+    {
+      "phoneCode"   : "+856",
+      "countryCode" : "LAO",
+      "countryName" : "Laos"
+    },
+    {
+      "phoneCode"   : "+60",
+      "countryCode" : "MYS",
+      "countryName" : "Malaysia"
+    },
+    {
+      "phoneCode"   : "+95",
+      "countryCode" : "MMR",
+      "countryName" : "Myanmar"
+    },
+    {
+      "phoneCode"   : "+31",
+      "countryCode" : "NLD",
+      "countryName" : "Netherlands"
+    },
+    {
+      "phoneCode"   : "+687",
+      "countryCode" : "NCL",
+      "countryName" : "New Caledonia"
+    },
+    {
+      "phoneCode"   : "+92",
+      "countryCode" : "PAK",
+      "countryName" : "Pakistan"
+    },
+    {
+      "phoneCode"   : "+675",
+      "countryCode" : "PNG",
+      "countryName" : "Papua New Guinea"
+    },
+    {
+      "phoneCode"   : "+63",
+      "countryCode" : "PHL",
+      "countryName" : "Philippines"
+    },
+    {
+      "phoneCode"   : "+685",
+      "countryCode" : "WSM",
+      "countryName" : "Samoa"
+    },
+    {
+      "phoneCode"   : "+65",
+      "countryCode" : "SGP",
+      "countryName" : "Singapore"
+    },
+    {
+      "phoneCode"   : "+677",
+      "countryCode" : "SLB",
+      "countryName" : "Solomon Islands"
+    },
+    {
+      "phoneCode"   : "+34",
+      "countryCode" : "ESP",
+      "countryName" : "Spain"
+    },
+    {
+      "phoneCode"   : "+94",
+      "countryCode" : "LKA",
+      "countryName" : "Sri Lanka"
+    },
+    {
+      "phoneCode"   : "+46",
+      "countryCode" : "SWE",
+      "countryName" : "Sweden"
+    },
+    {
+      "phoneCode"   : "+41",
+      "countryCode" : "CHE",
+      "countryName" : "Switzerland"
+    },
+    {
+      "phoneCode"   : "+886",
+      "countryCode" : "TWN",
+      "countryName" : "Taiwan"
+    },
+    {
+      "phoneCode"   : "+66",
+      "countryCode" : "THA",
+      "countryName" : "Thailand"
+    },
+    {
+      "phoneCode"   : "+670",
+      "countryCode" : "TLS",
+      "countryName" : "Timor-Leste"
+    },
+    {
+      "phoneCode"   : "+676",
+      "countryCode" : "TON",
+      "countryName" : "Tonga"
+    },
+    {
+      "phoneCode"   : "+971",
+      "countryCode" : "ARE",
+      "countryName" : "United Arab Emirates"
+    },
+    {
+      "phoneCode"   : "+44",
+      "countryCode" : "GBR",
+      "countryName" : "United Kingdom"
+    },
+    {
+      "phoneCode"   : "+1",
+      "countryCode" : "USA",
+      "countryName" : "United States"
+    },
+    {
+      "phoneCode"   : "+678",
+      "countryCode" : "VUT",
+      "countryName" : "Vanuatu"
+    },
+    {
+      "phoneCode"   : "+84",
+      "countryCode" : "VNM",
+      "countryName" : "Vietnam"
+    }
+  ]
+
+}

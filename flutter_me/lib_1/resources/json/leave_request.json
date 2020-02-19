@@ -1,0 +1,25 @@
+{
+  "leaveFormTypes": {
+    "ANNUAL LEAVE": "Annual leave",
+    "CARERS LEAVE": "Carer's leave",
+    "CARERS WITHOUT PAY": "Carer's leave w/o pay ",
+    "CO PARENT LEAVE": "Co-parent leave",
+    "LVE WITHOUT PAY": "Leave without pay",
+    "LIFESTYLE": "Lifestyle leave",
+    "LSLVE": "Long Serv leave",
+    "LSLVE HP": "Long Serv leave 1/2 pay",
+    "LOYALTY": "Loyalty Leave",
+    "OTHER LEAVE, BL": "Bereavement leave",
+    "OTHER LEAVE, JL": "Jury Service leave",
+    "OTHER LEAVE, MD": "Manager's discretion",
+    "OTHER LEAVE, ML": "Military Service leave",
+    "OTHER LEAVE, TL": "Time off in lieu",
+    "OTHER LEAVE, UL": "Union leave",
+    "RDO LEAVE": "Rostered day off",
+    "SICK LEAVE": "Sick leave",
+    "SL WITHOUT PAY": "Sick leave w/o pay",
+    "STUDY LEAVE": "Study leave",
+    "STUDY WITHOUT PAY": "Study leave w/o pay",
+    "VOLUNTEER LEAVE": "Volunteer leave"
+  }
+}

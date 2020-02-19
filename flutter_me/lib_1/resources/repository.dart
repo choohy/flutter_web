@@ -1,11 +1,13 @@
 import 'dart:async' show Future;
 //import 'package:flutter_me/models/help.dart';
 import 'package:flutter_me/models/leave_history_model.dart';
+import 'package:flutter_me/models/leave_request_model.dart';
 
 //import '../models/leave_type.dart';
 //import 'help_provider.dart';
 //import 'leave_balance_provider.dart';
 import 'leave_history_provider.dart';
+import 'leave_request_provider.dart';
 //import 'leave_type_provider.dart';
 //import 'leave_list_provider.dart';
 //import 'package:flutter_me/models/leave_list_model.dart';
@@ -27,6 +29,10 @@ class Repository {
   final leaveHistoryApiProvider = LeaveHistoryApiProvider();
 
   Future<LeaveHistoryModel> fetchAllLeaveHistory() => leaveHistoryApiProvider.fetchLeaveHistory();
+
+  final leaveRequestApiProvider = LeaveRequestApiProvider();
+
+  Future<LeaveRequestModel> fetchAllLeaveRequest() => leaveRequestApiProvider.fetchLeaveRequest();
 
 //  final helpApiProvider = HelpApiProvider();
 

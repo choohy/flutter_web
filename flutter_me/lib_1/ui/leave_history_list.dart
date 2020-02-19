@@ -85,7 +85,7 @@ class _LeaveHistoryListState extends State<LeaveHistoryList> {
 
   Widget _buildTile(int index, Item item) {
     return Card(
-      elevation: 2,
+      elevation: 0,
       child: Container(
         margin: const EdgeInsets.all(15.0),
 //        height: 80.0,

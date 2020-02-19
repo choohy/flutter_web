@@ -20,20 +20,20 @@ class Leave extends StatelessWidget {
             title: Text('Leave'),
           ),
           body: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(7.0),
             child: TabBarView(
               children: [
                 //Balances
-//              LeaveBalancesWidget(),
+              LeaveBalancesWidget(),
                 //Requests
-                Center(
-                  child: RaisedButton(
-                    onPressed: () {
-                      Navigator.pop(context);
-                    },
-                    child: Text('Go back!'),
-                  ),
-                ),
+//                Center(
+//                  child: RaisedButton(
+//                    onPressed: () {
+//                      Navigator.pop(context);
+//                    },
+//                    child: Text('Go back!'),
+//                  ),
+//                ),
                 //History
                 Center(
                   child: RaisedButton(
@@ -54,10 +54,10 @@ class Leave extends StatelessWidget {
 
   Widget _tabContainer(BuildContext context, String tabName) {
     return Container(
-      margin: const EdgeInsets.all(15.0),
+      margin: const EdgeInsets.all(5.0),
       alignment: Alignment(-1.0, 0.0),
 //                  height: MediaQuery.of(context).size.height / 7,
-      width: MediaQuery.of(context).size.width / 3,
+//      width: MediaQuery.of(context).size.width / 3,
       child: Text(tabName),
     );
   }
