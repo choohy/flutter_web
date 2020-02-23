@@ -1,6 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:meta/meta.dart';
 
+import '../../../../core/error/exception.dart';
 import '../../../../core/error/failure.dart';
 import '../../domain/entities/leave_type.dart';
 import '../../domain/repositories/leave_type_repository.dart';
@@ -19,9 +20,25 @@ class LeaveTypeRepositoryImpl implements LeaveTypeRepository {
       @required this.networkInfo});
 
   @override
-  Future<Either<Failure, LeaveType>> getLeaveDescription(String leaveType) {
-    // TODO: implement getLeaveDescription
-    throw UnimplementedError();
+  Future<Either<Failure, LeaveType>> getLeaveDescription(String leaveType) async {
+    if(await networkInfo.isConnected) {
+      try {
+        final remoteDescription = await remoteDataSource.getLeaveDescription(
+            leaveType);
+        localDataSource.setLeaveDescription(leaveType);
+        return Right(remoteDescription);
+      } on ServerException {
+        return Left(ServerFailure());
+      }
+    } else {
+      try {
+        final localDescription = await localDataSource.getLeaveDescription(
+            leaveType);
+        return Right(localDescription);
+      } on CacheException {
+        return Left(CacheFailure());
+      }
+    }
   }
 
   @override
