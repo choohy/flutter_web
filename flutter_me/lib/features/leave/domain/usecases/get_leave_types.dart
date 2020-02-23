@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 
-import 'package:flutter_me/core/error/failure.dart';
-import 'package:flutter_me/core/usercases/usecase.dart';
-import 'package:flutter_me/features/leave/domain/entities/leave_type.dart';
-import 'package:flutter_me/features/leave/domain/repositories/leave_type_repository.dart';
+import '../../../../core/error/failure.dart';
+import '../../../../core/usercases/usecase.dart';
+import '../entities/leave_type.dart';
+import '../repositories/leave_type_repository.dart';
 
 class GetLeaveTypes implements UseCase<List<LeaveType>, NoParams> {
   final LeaveTypeRepository repository;
