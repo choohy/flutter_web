@@ -116,26 +116,26 @@ void main() {
       test('should return last locally cached data when cached data is present',
           () async {
         //arrange
-        when(mockLocalDataSource.getLeaveType())
+        when(mockLocalDataSource.getLeaveType(tLeaveTypePin))
             .thenAnswer((_) async => tLeaveTypeModel);
         //act
         final result = await repository.getLeaveDescription(tLeaveTypePin);
         //asset
         verifyZeroInteractions(mockRemoteDataSource);
-        verify(mockLocalDataSource.getLeaveType());
+        verify(mockLocalDataSource.getLeaveType(tLeaveTypePin));
         expect(result, Right(tLeaveType));
       });
 
       test('should return CacheFailure when no cached data present',
               () async {
             //arrange
-            when(mockLocalDataSource.getLeaveType())
+            when(mockLocalDataSource.getLeaveType(tLeaveTypePin))
                 .thenThrow(CacheException());
             //act
             final result = await repository.getLeaveDescription(tLeaveTypePin);
             //asset
             verifyZeroInteractions(mockRemoteDataSource);
-            verify(mockLocalDataSource.getLeaveType());
+            verify(mockLocalDataSource.getLeaveType(tLeaveTypePin));
             expect(result, equals(Left(CacheFailure())));
           });
     });

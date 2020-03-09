@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:collection/collection.dart';
+//import 'package:collection/collection.dart';
 
 import 'package:flutter_me/features/leave/data/models/leave_type_model.dart';
 import 'package:flutter_me/features/leave/domain/entities/leave_type.dart';
@@ -11,10 +11,10 @@ void main() {
   final tleaveTypeModel = LeaveTypeModel(
       leaveType: "LEAVE TYPE PIN",
       leaveDescription: "Leave Type Description");
-  final tleaveTypeModel2 = LeaveTypeModel(
-      leaveType: "LEAVE TYPE PIN2",
-      leaveDescription: "Leave Type Description2");
-  Function eq = const DeepCollectionEquality.unordered().equals;
+//  final tleaveTypeModel2 = LeaveTypeModel(
+//      leaveType: "LEAVE TYPE PIN2",
+//      leaveDescription: "Leave Type Description2");
+//  Function eq = const DeepCollectionEquality.unordered().equals;
 
   test('should be a subclass of LeaveType entity', () async {
     //asset

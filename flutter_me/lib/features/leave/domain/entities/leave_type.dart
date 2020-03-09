@@ -16,8 +16,6 @@ class LeaveType extends Equatable {
         'leaveType: $leaveType, '
         'leaveDescription: $leaveDescription}';
   }
-
-
 }
 
 class LeaveTypes extends Equatable {

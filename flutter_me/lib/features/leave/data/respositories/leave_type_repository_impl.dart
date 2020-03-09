@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+import 'package:flutter_me/features/leave/data/models/leave_type_model.dart';
 import 'package:meta/meta.dart';
 
 import '../../../../core/error/exception.dart';
@@ -9,7 +10,7 @@ import '../../../../core/network/network_info.dart';
 import '../datasources/leave_type_local_data_source.dart';
 import '../datasources/leave_type_remote_data_source.dart';
 
-typedef Future<LeaveType> _LeaveType();
+typedef Future<LeaveTypeModel> _LeaveType();
 
 class LeaveTypeRepositoryImpl implements LeaveTypeRepository {
   final LeaveTypeRemoteDataSource remoteDataSource;
@@ -22,19 +23,19 @@ class LeaveTypeRepositoryImpl implements LeaveTypeRepository {
       @required this.networkInfo});
 
   @override
-  Future<Either<Failure, LeaveType>> getLeaveDescription(String leaveTypePin) async {
+  Future<Either<Failure, LeaveTypeModel>> getLeaveDescription(String leaveTypePin) async {
     return await _getLeaveType(() {
       return remoteDataSource.getLeaveDescription(leaveTypePin);
     });
   }
 
   @override
-  Future<Either<Failure, List<LeaveType>>> getLeaveTypes() {
+  Future<Either<Failure, List<LeaveTypeModel>>> getLeaveTypes() {
     // TODO: implement getLeaveTypes
     throw UnimplementedError();
   }
 
-  Future<Either<Failure, LeaveType>> _getLeaveType(
+  Future<Either<Failure, LeaveTypeModel>> _getLeaveType(
       _LeaveType getLeaveType,
 //      Future<LeaveType> Function() getLeaveType
       ) async {
@@ -48,7 +49,7 @@ class LeaveTypeRepositoryImpl implements LeaveTypeRepository {
       }
     } else {
       try {
-        final localLeaveType = await localDataSource.getLeaveType();
+        final localLeaveType = await localDataSource.getLeaveType('ANNUAL LEAVE');
         return Right(localLeaveType);
       } on CacheException {
         return Left(CacheFailure());
