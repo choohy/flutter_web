@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_me/ui/leave_balances_list.dart';
-import 'package:flutter_me/ui/leave_history_list.dart';
+import '../ui/leave_balances_list.dart';
+import '../ui/leave_history_list.dart';
 
 class Leave extends StatelessWidget {
   @override

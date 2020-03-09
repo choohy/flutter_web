@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_me/models/profile_model.dart';
-import 'package:flutter_me/ui/profile_read.dart';
+import '../models/profile_model.dart';
+import '../ui/profile_read.dart';
 
 class ProfileButton extends StatefulWidget {
   final Profile profile;

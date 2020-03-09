@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_me/Utility/Approval_Icon.dart';
-import 'package:flutter_me/Utility/text_formating.dart';
-import 'package:flutter_me/Utility/text_tile.dart';
-import 'package:flutter_me/models/leave_history_model.dart';
-import 'package:flutter_me/blocs/leave_history_bloc.dart';
+import '../Utility/Approval_Icon.dart';
+import '../Utility/text_formating.dart';
+import '../Utility/text_tile.dart';
+import '../models/leave_history_model.dart';
+import '../blocs/leave_history_bloc.dart';
 
 class LeaveHistoryWidget extends StatelessWidget {
   @override

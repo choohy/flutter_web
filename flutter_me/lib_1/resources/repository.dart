@@ -1,7 +1,7 @@
 import 'dart:async' show Future;
 //import 'package:flutter_me/models/help.dart';
-import 'package:flutter_me/models/leave_history_model.dart';
-import 'package:flutter_me/models/leave_request_model.dart';
+import '../models/leave_history_model.dart';
+import '../models/leave_request_model.dart';
 
 //import '../models/leave_type.dart';
 //import 'help_provider.dart';
