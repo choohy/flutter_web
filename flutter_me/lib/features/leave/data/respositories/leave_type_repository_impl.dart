@@ -4,7 +4,6 @@ import 'package:meta/meta.dart';
 
 import '../../../../core/error/exception.dart';
 import '../../../../core/error/failure.dart';
-import '../../domain/entities/leave_type.dart';
 import '../../domain/repositories/leave_type_repository.dart';
 import '../../../../core/network/network_info.dart';
 import '../datasources/leave_type_local_data_source.dart';
