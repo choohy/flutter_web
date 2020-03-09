@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_me/core/error/exception.dart';
 import 'package:flutter_me/core/error/failure.dart';
-import 'package:flutter_me/core/platform/network_info.dart';
+import 'package:flutter_me/core/network/network_info.dart';
 import 'package:flutter_me/features/leave/data/datasources/leave_type_local_data_source.dart';
 import 'package:flutter_me/features/leave/data/models/leave_type_model.dart';
 import 'package:flutter_me/features/leave/data/respositories/leave_type_repository_impl.dart';
@@ -90,14 +90,15 @@ void main() {
         when(mockRemoteDataSource.getLeaveDescription(any))
             .thenAnswer((_) async => tLeaveTypeModel);
         //act
-        await repository.getLeaveDescription(tLeaveTypePin);
+        final rightLeaveType = await repository.getLeaveDescription(tLeaveTypePin);
+        final leaveType = rightLeaveType.getOrElse(() => null);
         //asset
         verify(mockRemoteDataSource.getLeaveDescription(tLeaveTypePin));
-        verify(mockLocalDataSource.setLeaveDescription(tLeaveTypePin));
+        verify(mockLocalDataSource.setLeaveType(leaveType));
       });
 
       test(
-          'should return servere failure call to remote data source is unsuccessful',
+          'should return server failure call to remote data source is unsuccessful',
           () async {
         //arrange
         when(mockRemoteDataSource.getLeaveDescription(any))
@@ -115,26 +116,26 @@ void main() {
       test('should return last locally cached data when cached data is present',
           () async {
         //arrange
-        when(mockLocalDataSource.getLeaveDescription(any))
+        when(mockLocalDataSource.getLeaveType())
             .thenAnswer((_) async => tLeaveTypeModel);
         //act
         final result = await repository.getLeaveDescription(tLeaveTypePin);
         //asset
         verifyZeroInteractions(mockRemoteDataSource);
-        verify(mockLocalDataSource.getLeaveDescription(tLeaveTypePin));
+        verify(mockLocalDataSource.getLeaveType());
         expect(result, Right(tLeaveType));
       });
 
       test('should return CacheFailure when no cached data present',
               () async {
             //arrange
-            when(mockLocalDataSource.getLeaveDescription(any))
+            when(mockLocalDataSource.getLeaveType())
                 .thenThrow(CacheException());
             //act
             final result = await repository.getLeaveDescription(tLeaveTypePin);
             //asset
             verifyZeroInteractions(mockRemoteDataSource);
-            verify(mockLocalDataSource.getLeaveDescription(tLeaveTypePin));
+            verify(mockLocalDataSource.getLeaveType());
             expect(result, equals(Left(CacheFailure())));
           });
     });

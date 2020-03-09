@@ -10,14 +10,14 @@ class LeaveTypeModel extends LeaveType {
 
   factory LeaveTypeModel.fromJson(Map<String, dynamic> json) {
     var keys = json.keys;
-    print('leaveType: '+ keys.elementAt(0));
-    print('leaveDescription: '+ json[keys.elementAt(0)]);
+//    print('leaveType: '+ keys.elementAt(0));
+//    print('leaveDescription: '+ json[keys.elementAt(0)]);
     return LeaveTypeModel(leaveType: keys.elementAt(0), leaveDescription:json[keys.elementAt(0)]);
   }
 
   Map<String, dynamic> toJson() {
-    print('leaveType: '+leaveType);
-    print('leaveDescription: '+leaveDescription);
+//    print('leaveType: '+leaveType);
+//    print('leaveDescription: '+leaveDescription);
     return {
       '${leaveType.toUpperCase()}': leaveDescription
     };
@@ -30,12 +30,16 @@ class LeaveTypesModel extends LeaveTypes {
 }) : super(leaveTypes: leaveTypes);
 
   factory LeaveTypesModel.fromJson(Map<String, dynamic> json) {
-    var keys = json.keys;
-    print('keys: '+ keys.toString());
-    var leaveTypes = new List<LeaveType>();
+    final keys = json.keys;
+//    print('keys: '+ keys.toString());
+    final leaveTypes = new List<LeaveType>();
     keys.forEach((element) {
+//      print('key: '+element+", description: "+json[element]);
       leaveTypes.add(LeaveType(leaveType: element, leaveDescription:json[element]));
     });
+//    leaveTypes.forEach((element) {
+//      print('element: '+element.toString());
+//    });
     return LeaveTypesModel(leaveTypes: leaveTypes);
   }
 
