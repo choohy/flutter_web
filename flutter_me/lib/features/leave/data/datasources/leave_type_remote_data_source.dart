@@ -11,6 +11,7 @@ abstract class LeaveTypeRemoteDataSource {
   //Calls the XX end point
   //Throws a [ServerException] for all error codes.
   Future<LeaveTypeModel> getLeaveTypes();
+  Future<LeaveTypeModel> getLeaveType();
 }
 
 class LeaveTypeRemoteDataSourceImpl implements LeaveTypeRemoteDataSource {
@@ -24,6 +25,11 @@ class LeaveTypeRemoteDataSourceImpl implements LeaveTypeRemoteDataSource {
   @override
   Future<LeaveTypeModel> getLeaveDescription(String leaveTypePin) async {
     return _getLeaveTypeFromUrl(url+'/'+leaveTypePin);
+  }
+
+  @override
+  Future<LeaveTypeModel> getLeaveType() async {
+    return _getLeaveTypeFromUrl(url);
   }
 
   @override

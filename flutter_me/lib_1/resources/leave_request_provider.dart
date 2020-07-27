@@ -1,7 +1,7 @@
 import 'dart:async' show Future;
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:flutter_me/models/leave_request_model.dart';
+import '../models/leave_request_model.dart';
 
 class LeaveRequestApiProvider {
   Future<String> _loadLeaveRequest() async {

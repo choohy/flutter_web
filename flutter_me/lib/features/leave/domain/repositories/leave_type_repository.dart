@@ -6,4 +6,5 @@ import '../../domain/entities/leave_type.dart';
 abstract class LeaveTypeRepository {
   Future<Either<Failure, LeaveType>> getLeaveDescription(String leaveType);
   Future<Either<Failure, List<LeaveType>>> getLeaveTypes();
+  Future<Either<Failure, LeaveType>> getLeaveType();
 }

@@ -29,6 +29,13 @@ class LeaveTypeRepositoryImpl implements LeaveTypeRepository {
   }
 
   @override
+  Future<Either<Failure, LeaveTypeModel>> getLeaveType() async {
+    return await _getLeaveType(() {
+      return remoteDataSource.getLeaveType();
+    });
+  }
+
+  @override
   Future<Either<Failure, List<LeaveTypeModel>>> getLeaveTypes() {
     // TODO: implement getLeaveTypes
     throw UnimplementedError();

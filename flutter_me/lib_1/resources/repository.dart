@@ -1,7 +1,7 @@
 import 'dart:async' show Future;
 //import 'package:flutter_me/models/help.dart';
-import 'package:flutter_me/models/leave_history_model.dart';
-import 'package:flutter_me/models/leave_request_model.dart';
+import '../models/leave_history_model.dart';
+import '../models/leave_request_model.dart';
 
 //import '../models/leave_type.dart';
 //import 'help_provider.dart';
@@ -26,9 +26,9 @@ class Repository {
 
 //  Future<LeaveBalancesModel> fetchAllBalances() => leaveBalanceApiProvider.fetchLeaveBalances();
 
-  final leaveHistoryApiProvider = LeaveHistoryApiProvider();
+//  final leaveHistoryApiProvider = LeaveHistoryApiProvider();
 
-  Future<LeaveHistoryModel> fetchAllLeaveHistory() => leaveHistoryApiProvider.fetchLeaveHistory();
+//  Future<LeaveHistoryModel> fetchAllLeaveHistory() => leaveHistoryApiProvider.fetchLeaveHistory();
 
   final leaveRequestApiProvider = LeaveRequestApiProvider();
 

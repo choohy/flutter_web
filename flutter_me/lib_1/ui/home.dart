@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_me/Utility/text_tile.dart';
-import 'package:flutter_me/models/profile_model.dart';
+import '../Utility/text_tile.dart';
+import '../models/profile_model.dart';
 import 'dart:ui' as ui;
-import 'package:flutter_me/navigation/leave.dart';
-import 'package:flutter_me/navigation/pay.dart';
-import 'package:flutter_me/navigation/timesheet.dart';
-import 'package:flutter_me/ui/view_profile_button.dart';
+import '../navigation/leave.dart';
+import '../navigation/pay.dart';
+import '../navigation/timesheet.dart';
+import '../ui/view_profile_button.dart';
 import 'package:toast/toast.dart';
 //import 'package:flutter_webapp/Utility/ChatBot.dart';
 //import 'package:flutter_webapp/ui/help_dialog.dart';
@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         fontSize: _width / 15,
                         color: Colors.white),
                   ),
-                  ProfileButton(profile: Profile(),),
+//                  ProfileButton(profile: Profile(),),
                   new Divider(
                     height: _height / 30,
                     color: Colors.white,

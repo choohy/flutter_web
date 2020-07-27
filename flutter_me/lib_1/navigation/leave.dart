@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_me/ui/leave_balances_list.dart';
-import 'package:flutter_me/ui/leave_history_list.dart';
+import '../ui/leave_balances_list.dart';
+import '../ui/leave_history_list.dart';
 
 class Leave extends StatelessWidget {
   @override
@@ -24,16 +24,16 @@ class Leave extends StatelessWidget {
             child: TabBarView(
               children: [
                 //Balances
-              LeaveBalancesWidget(),
+//              LeaveBalancesWidget(),
                 //Requests
-//                Center(
-//                  child: RaisedButton(
-//                    onPressed: () {
-//                      Navigator.pop(context);
-//                    },
-//                    child: Text('Go back!'),
-//                  ),
-//                ),
+                Center(
+                  child: RaisedButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text('Go back!'),
+                  ),
+                ),
                 //History
                 Center(
                   child: RaisedButton(
@@ -43,7 +43,8 @@ class Leave extends StatelessWidget {
                     child: Text('Go back!'),
                   ),
                 ),
-                LeaveHistoryWidget(),
+//                LeaveHistoryWidget(),
+                Text('To be implementeed'),
               ],
             ),
           ),

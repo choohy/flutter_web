@@ -22,5 +22,8 @@ class GetLeaveDescription implements UseCase<LeaveType, Params> {
 
 class Params extends Equatable {
   final String leaveType;
-  Params({@required this.leaveType}) : super([leaveType]);
+  Params({@required this.leaveType});
+
+  @override
+  List<Object> get props => [leaveType];
 }

@@ -5,10 +5,10 @@ class LeaveType extends Equatable {
   final String leaveType;
   final String leaveDescription;
 
-  LeaveType({
+  const LeaveType({
     @required this.leaveType,
     @required this.leaveDescription
-  }) : super([leaveType,leaveDescription]);
+  });
 
   @override
   String toString() {
@@ -16,6 +16,9 @@ class LeaveType extends Equatable {
         'leaveType: $leaveType, '
         'leaveDescription: $leaveDescription}';
   }
+
+  @override
+  List<Object> get props => [leaveType, leaveDescription];
 }
 
 class LeaveTypes extends Equatable {
@@ -23,5 +26,8 @@ class LeaveTypes extends Equatable {
 
   LeaveTypes({
     @required this.leaveTypes
-  }) : super([leaveTypes]);
+  });
+
+  @override
+  List<Object> get props => [leaveTypes];
 }
